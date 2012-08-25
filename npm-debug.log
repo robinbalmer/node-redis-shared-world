@@ -1,0 +1,2390 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'jitsu', '-g' ]
+info using npm@1.1.24
+info using node@v0.6.19
+verbose config file /Users/balmerr/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose cache add [ 'jitsu', null ]
+silly cache add: name, spec, args [ undefined, 'jitsu', [ 'jitsu', null ] ]
+verbose parsed url { pathname: 'jitsu', path: 'jitsu', href: 'jitsu' }
+verbose addNamed [ 'jitsu', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'jitsu', '', false ]
+verbose raw, before any munging jitsu
+verbose url resolving [ 'https://registry.npmjs.org/', './jitsu' ]
+verbose url resolved https://registry.npmjs.org/jitsu
+http GET https://registry.npmjs.org/jitsu
+http 200 https://registry.npmjs.org/jitsu
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"BL0MAFFC2TXNUT925CMDKGV74"',
+silly get cb     date: 'Sat, 25 Aug 2012 06:21:44 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '261424' } ]
+silly name, range, hasData 2 [ 'jitsu', '', true ]
+silly versions [ 'jitsu',
+silly versions   [ '0.4.14',
+silly versions     '0.4.15',
+silly versions     '0.4.16',
+silly versions     '0.5.0',
+silly versions     '0.5.0-1',
+silly versions     '0.6.0',
+silly versions     '0.6.1',
+silly versions     '0.6.1-1',
+silly versions     '0.6.2',
+silly versions     '0.6.3',
+silly versions     '0.7.0',
+silly versions     '0.7.0-1',
+silly versions     '0.7.0-2',
+silly versions     '0.7.1',
+silly versions     '0.7.2',
+silly versions     '0.7.2-1',
+silly versions     '0.7.3',
+silly versions     '0.7.4',
+silly versions     '0.7.4-1',
+silly versions     '0.7.5',
+silly versions     '0.7.6',
+silly versions     '0.7.6-1',
+silly versions     '0.7.7',
+silly versions     '0.7.7-1',
+silly versions     '0.7.7-2',
+silly versions     '0.7.100',
+silly versions     '0.8.0',
+silly versions     '0.8.1',
+silly versions     '0.8.2',
+silly versions     '0.8.2-1',
+silly versions     '0.8.3',
+silly versions     '0.8.4',
+silly versions     '0.8.4-1',
+silly versions     '0.8.5',
+silly versions     '0.8.5-1',
+silly versions     '0.8.6',
+silly versions     '0.8.7',
+silly versions     '0.8.8',
+silly versions     '0.8.9',
+silly versions     '0.9.0',
+silly versions     '0.9.1',
+silly versions     '0.9.2',
+silly versions     '0.9.3',
+silly versions     '0.9.4',
+silly versions     '0.9.5',
+silly versions     '0.9.6',
+silly versions     '0.9.7' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-darwin-x64-11.4.0',
+verbose bin dist   { shasum: '23eb571a388ae2a4f5dc417472d83c8da107c4b5',
+verbose bin dist     tarball: 'http://registry.npmjs.org/jitsu/-/jitsu-0.9.7.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/jitsu/-/jitsu-0.9.7.tgz',
+verbose addRemoteTarball   '23eb571a388ae2a4f5dc417472d83c8da107c4b5' ]
+verbose fetch to /tmp/npm-1345875705496/1345875705496-0.42596085323020816/tmp.tgz
+http GET https://registry.npmjs.org/jitsu/-/jitsu-0.9.7.tgz
+http 200 https://registry.npmjs.org/jitsu/-/jitsu-0.9.7.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 24256
+info shasum 23eb571a388ae2a4f5dc417472d83c8da107c4b5
+info shasum /tmp/npm-1345875705496/1345875705496-0.42596085323020816/tmp.tgz
+verbose unpack /tmp/npm-1345875705496/1345875705496-0.42596085323020816/tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry .travis.yml
+silly extracting entry assets/jitsu.png
+silly extracting entry assets/login.png
+silly extracting entry bin/jitsu
+silly extracting entry lib/jitsu.js
+silly extracting entry lib/jitsu/alias.js
+silly extracting entry lib/jitsu/commands.js
+silly extracting entry lib/jitsu/completion.js
+silly extracting entry lib/jitsu/config.js
+silly extracting entry lib/jitsu/package.js
+silly extracting entry lib/jitsu/properties.js
+silly extracting entry lib/jitsu/usage.js
+silly extracting entry lib/jitsu/commands/apps.js
+silly extracting entry lib/jitsu/commands/databases.js
+silly extracting entry lib/jitsu/commands/env.js
+silly extracting entry lib/jitsu/commands/install.js
+silly extracting entry lib/jitsu/commands/logs.js
+silly extracting entry lib/jitsu/commands/package.js
+silly extracting entry lib/jitsu/commands/snapshots.js
+silly extracting entry lib/jitsu/commands/users.js
+silly extracting entry lib/jitsu/commands/wizard.js
+silly extracting entry lib/jitsu/common/index.js
+silly extracting entry lib/jitsu/common/logfile.js
+silly extracting entry test/commands/apps-test.js
+silly extracting entry test/commands/bad-test.js
+silly extracting entry test/commands/databases-test.js
+silly extracting entry test/commands/env-test.js
+silly extracting entry test/commands/logs-test.js
+silly extracting entry test/commands/no-colors-test.js
+silly extracting entry test/commands/package-test.js
+silly extracting entry test/commands/snapshots-test.js
+silly extracting entry test/commands/users-test.js
+silly extracting entry test/fixtures/dot-jitsuconf
+silly extracting entry test/fixtures/example-app/package.json
+silly extracting entry test/fixtures/example-app/server.js
+silly extracting entry test/fixtures/logged-out-jitsuconf
+silly extracting entry test/helpers/macros.js
+verbose caching /tmp/npm-1345875705496/1345875705496-0.42596085323020816/package/package.json
+verbose loadDefaults jitsu@0.9.7
+verbose from cache /tmp/npm-1345875705496/1345875705496-0.42596085323020816/package/package.json
+verbose tar.pack [ '/Users/balmerr/.npm/jitsu/0.9.7/package.tgz',
+verbose tar.pack   '/tmp/npm-1345875705496/1345875705496-0.42596085323020816/package' ]
+verbose tarball /Users/balmerr/.npm/jitsu/0.9.7/package.tgz
+verbose folder /tmp/npm-1345875705496/1345875705496-0.42596085323020816/package
+verbose unpack /Users/balmerr/.npm/jitsu/0.9.7/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry .travis.yml
+silly extracting entry assets/jitsu.png
+silly extracting entry assets/login.png
+silly extracting entry bin/jitsu
+silly extracting entry lib/jitsu.js
+silly extracting entry lib/jitsu/alias.js
+silly extracting entry lib/jitsu/commands.js
+silly extracting entry lib/jitsu/completion.js
+silly extracting entry lib/jitsu/config.js
+silly extracting entry lib/jitsu/package.js
+silly extracting entry lib/jitsu/properties.js
+silly extracting entry lib/jitsu/usage.js
+silly extracting entry lib/jitsu/commands/apps.js
+silly extracting entry lib/jitsu/commands/databases.js
+silly extracting entry lib/jitsu/commands/env.js
+silly extracting entry lib/jitsu/commands/install.js
+silly extracting entry lib/jitsu/commands/logs.js
+silly extracting entry lib/jitsu/commands/package.js
+silly extracting entry lib/jitsu/commands/snapshots.js
+silly extracting entry lib/jitsu/commands/users.js
+silly extracting entry lib/jitsu/commands/wizard.js
+silly extracting entry lib/jitsu/common/index.js
+silly extracting entry lib/jitsu/common/logfile.js
+silly extracting entry test/commands/apps-test.js
+silly extracting entry test/commands/bad-test.js
+silly extracting entry test/commands/databases-test.js
+silly extracting entry test/commands/env-test.js
+silly extracting entry test/commands/logs-test.js
+silly extracting entry test/commands/no-colors-test.js
+silly extracting entry test/commands/package-test.js
+silly extracting entry test/commands/snapshots-test.js
+silly extracting entry test/commands/users-test.js
+silly extracting entry test/fixtures/dot-jitsuconf
+silly extracting entry test/fixtures/example-app/package.json
+silly extracting entry test/fixtures/example-app/server.js
+silly extracting entry test/fixtures/logged-out-jitsuconf
+silly extracting entry test/helpers/macros.js
+verbose caching /Users/balmerr/.npm/jitsu/0.9.7/package/package.json
+verbose loadDefaults jitsu@0.9.7
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 30583
+info shasum b349c3aa8786395ea4b7894d7c6b86925f6ae811
+info shasum /Users/balmerr/.npm/jitsu/0.9.7/package.tgz
+verbose from cache /Users/balmerr/.npm/jitsu/0.9.7/package/package.json
+verbose chmod /Users/balmerr/.npm/jitsu/0.9.7/package.tgz 644
+verbose chown [ '/Users/balmerr/.npm/jitsu/0.9.7/package.tgz',
+verbose chown   1857463367,
+verbose chown   1047304036 ]
+silly resolved [ { name: 'jitsu',
+silly resolved     description: 'Flawless command line deployment of your Node.js apps to the cloud',
+silly resolved     keywords: 
+silly resolved      [ 'cli',
+silly resolved        'nodejitsu',
+silly resolved        'cloud hosting',
+silly resolved        'platform-as-a-service',
+silly resolved        'deployment' ],
+silly resolved     version: '0.9.7',
+silly resolved     author: { name: 'Nodejitsu Inc.', email: 'info@nodejitsu.com' },
+silly resolved     maintainers: 
+silly resolved      [ { name: 'AvianFlu', email: 'avianflu@nodejitsu.com' },
+silly resolved        { name: 'Marak', email: 'marak@nodejitsu.com' } ],
+silly resolved     repository: { type: 'git', url: 'git://github.com/nodejitsu/jitsu.git' },
+silly resolved     preferGlobal: true,
+silly resolved     dependencies: 
+silly resolved      { colors: '0.6.0-1',
+silly resolved        complete: '0.3.1',
+silly resolved        dateformat: '1.0.2-1.2.3',
+silly resolved        flatiron: '0.2.5',
+silly resolved        'flatiron-cli-config': '0.1.3',
+silly resolved        'flatiron-cli-users': '0.1.1',
+silly resolved        fstream: '0.1.18',
+silly resolved        'fstream-npm': '0.1.0',
+silly resolved        npm: '1.1.59',
+silly resolved        'nodejitsu-api': '0.3.2',
+silly resolved        pkginfo: '0.2.3',
+silly resolved        request: '2.9.100',
+silly resolved        'require-analyzer': '0.4.0-3',
+silly resolved        'spawn-command': '0.0.1',
+silly resolved        semver: '1.0.13',
+silly resolved        tar: '0.1.13',
+silly resolved        wizard: '0.0.1' },
+silly resolved     devDependencies: { nock: '0.8.x', vows: '0.6.x' },
+silly resolved     bin: { jitsu: './bin/jitsu' },
+silly resolved     main: './lib/jitsu',
+silly resolved     scripts: { test: 'vows test/commands/*-test.js --spec' },
+silly resolved     engines: { node: '>= 0.4.0' },
+silly resolved     _id: 'jitsu@0.9.7',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.24',
+silly resolved     _nodeVersion: 'v0.6.19',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'b349c3aa8786395ea4b7894d7c6b86925f6ae811' },
+silly resolved     _from: 'jitsu' } ]
+info into /usr/local/lib jitsu@0.9.7
+info installOne jitsu@0.9.7
+verbose from cache /Users/balmerr/.npm/jitsu/0.9.7/package/package.json
+info unbuild /usr/local/lib/node_modules/jitsu
+verbose unpack /Users/balmerr/.npm/jitsu/0.9.7/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry .travis.yml
+silly extracting entry assets/jitsu.png
+silly extracting entry assets/login.png
+silly extracting entry bin/jitsu
+silly extracting entry lib/jitsu.js
+silly extracting entry lib/jitsu/alias.js
+silly extracting entry lib/jitsu/commands.js
+silly extracting entry lib/jitsu/completion.js
+silly extracting entry lib/jitsu/config.js
+silly extracting entry lib/jitsu/package.js
+silly extracting entry lib/jitsu/properties.js
+silly extracting entry lib/jitsu/usage.js
+silly extracting entry lib/jitsu/commands/apps.js
+silly extracting entry lib/jitsu/commands/databases.js
+silly extracting entry lib/jitsu/commands/env.js
+silly extracting entry lib/jitsu/commands/install.js
+silly extracting entry lib/jitsu/commands/logs.js
+silly extracting entry lib/jitsu/commands/package.js
+silly extracting entry lib/jitsu/commands/snapshots.js
+silly extracting entry lib/jitsu/commands/users.js
+silly extracting entry lib/jitsu/commands/wizard.js
+silly extracting entry lib/jitsu/common/index.js
+silly extracting entry lib/jitsu/common/logfile.js
+silly extracting entry test/commands/apps-test.js
+silly extracting entry test/commands/bad-test.js
+silly extracting entry test/commands/databases-test.js
+silly extracting entry test/commands/env-test.js
+silly extracting entry test/commands/logs-test.js
+silly extracting entry test/commands/no-colors-test.js
+silly extracting entry test/commands/package-test.js
+silly extracting entry test/commands/snapshots-test.js
+silly extracting entry test/commands/users-test.js
+silly extracting entry test/fixtures/dot-jitsuconf
+silly extracting entry test/fixtures/example-app/package.json
+silly extracting entry test/fixtures/example-app/server.js
+silly extracting entry test/fixtures/logged-out-jitsuconf
+silly extracting entry test/helpers/macros.js
+verbose caching /usr/local/lib/node_modules/jitsu/package.json
+verbose loadDefaults jitsu@0.9.7
+info preinstall jitsu@0.9.7
+verbose from cache /usr/local/lib/node_modules/jitsu/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /usr/local/lib/node_modules/jitsu/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'colors@0.6.0-1', null ]
+silly cache add: name, spec, args [ undefined, 'colors@0.6.0-1', [ 'colors@0.6.0-1', null ] ]
+verbose parsed url { pathname: 'colors@0.6.0-1',
+verbose parsed url   path: 'colors@0.6.0-1',
+verbose parsed url   href: 'colors@0.6.0-1' }
+silly cache add: name, spec, args [ 'colors', '0.6.0-1', [ 'colors', '0.6.0-1' ] ]
+verbose parsed url { pathname: '0.6.0-1', path: '0.6.0-1', href: '0.6.0-1' }
+verbose addNamed [ 'colors', '0.6.0-1' ]
+verbose addNamed [ '0.6.0-1', '0.6.0-1' ]
+verbose cache add [ 'complete@0.3.1', null ]
+silly cache add: name, spec, args [ undefined, 'complete@0.3.1', [ 'complete@0.3.1', null ] ]
+verbose parsed url { pathname: 'complete@0.3.1',
+verbose parsed url   path: 'complete@0.3.1',
+verbose parsed url   href: 'complete@0.3.1' }
+silly cache add: name, spec, args [ 'complete', '0.3.1', [ 'complete', '0.3.1' ] ]
+verbose parsed url { pathname: '0.3.1', path: '0.3.1', href: '0.3.1' }
+verbose addNamed [ 'complete', '0.3.1' ]
+verbose addNamed [ '0.3.1', '0.3.1' ]
+verbose raw, before any munging colors/0.6.0-1
+verbose url resolving [ 'https://registry.npmjs.org/', './colors/0.6.0-1' ]
+verbose url resolved https://registry.npmjs.org/colors/0.6.0-1
+http GET https://registry.npmjs.org/colors/0.6.0-1
+verbose raw, before any munging complete/0.3.1
+verbose url resolving [ 'https://registry.npmjs.org/', './complete/0.3.1' ]
+verbose url resolved https://registry.npmjs.org/complete/0.3.1
+http GET https://registry.npmjs.org/complete/0.3.1
+verbose cache add [ 'dateformat@1.0.2-1.2.3', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'dateformat@1.0.2-1.2.3',
+silly cache add: name, spec, args   [ 'dateformat@1.0.2-1.2.3', null ] ]
+verbose parsed url { pathname: 'dateformat@1.0.2-1.2.3',
+verbose parsed url   path: 'dateformat@1.0.2-1.2.3',
+verbose parsed url   href: 'dateformat@1.0.2-1.2.3' }
+silly cache add: name, spec, args [ 'dateformat', '1.0.2-1.2.3', [ 'dateformat', '1.0.2-1.2.3' ] ]
+verbose parsed url { pathname: '1.0.2-1.2.3',
+verbose parsed url   path: '1.0.2-1.2.3',
+verbose parsed url   href: '1.0.2-1.2.3' }
+verbose addNamed [ 'dateformat', '1.0.2-1.2.3' ]
+verbose addNamed [ '1.0.2-1.2.3', '1.0.2-1.2.3' ]
+verbose raw, before any munging dateformat/1.0.2-1.2.3
+verbose url resolving [ 'https://registry.npmjs.org/', './dateformat/1.0.2-1.2.3' ]
+verbose url resolved https://registry.npmjs.org/dateformat/1.0.2-1.2.3
+http GET https://registry.npmjs.org/dateformat/1.0.2-1.2.3
+verbose cache add [ 'flatiron@0.2.5', null ]
+silly cache add: name, spec, args [ undefined, 'flatiron@0.2.5', [ 'flatiron@0.2.5', null ] ]
+verbose parsed url { pathname: 'flatiron@0.2.5',
+verbose parsed url   path: 'flatiron@0.2.5',
+verbose parsed url   href: 'flatiron@0.2.5' }
+silly cache add: name, spec, args [ 'flatiron', '0.2.5', [ 'flatiron', '0.2.5' ] ]
+verbose parsed url { pathname: '0.2.5', path: '0.2.5', href: '0.2.5' }
+verbose addNamed [ 'flatiron', '0.2.5' ]
+verbose addNamed [ '0.2.5', '0.2.5' ]
+verbose cache add [ 'flatiron-cli-config@0.1.3', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'flatiron-cli-config@0.1.3',
+silly cache add: name, spec, args   [ 'flatiron-cli-config@0.1.3', null ] ]
+verbose parsed url { pathname: 'flatiron-cli-config@0.1.3',
+verbose parsed url   path: 'flatiron-cli-config@0.1.3',
+verbose parsed url   href: 'flatiron-cli-config@0.1.3' }
+silly cache add: name, spec, args [ 'flatiron-cli-config',
+silly cache add: name, spec, args   '0.1.3',
+silly cache add: name, spec, args   [ 'flatiron-cli-config', '0.1.3' ] ]
+verbose parsed url { pathname: '0.1.3', path: '0.1.3', href: '0.1.3' }
+verbose addNamed [ 'flatiron-cli-config', '0.1.3' ]
+verbose addNamed [ '0.1.3', '0.1.3' ]
+verbose cache add [ 'flatiron-cli-users@0.1.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'flatiron-cli-users@0.1.1',
+silly cache add: name, spec, args   [ 'flatiron-cli-users@0.1.1', null ] ]
+verbose parsed url { pathname: 'flatiron-cli-users@0.1.1',
+verbose parsed url   path: 'flatiron-cli-users@0.1.1',
+verbose parsed url   href: 'flatiron-cli-users@0.1.1' }
+silly cache add: name, spec, args [ 'flatiron-cli-users',
+silly cache add: name, spec, args   '0.1.1',
+silly cache add: name, spec, args   [ 'flatiron-cli-users', '0.1.1' ] ]
+verbose parsed url { pathname: '0.1.1', path: '0.1.1', href: '0.1.1' }
+verbose addNamed [ 'flatiron-cli-users', '0.1.1' ]
+verbose addNamed [ '0.1.1', '0.1.1' ]
+verbose cache add [ 'fstream@0.1.18', null ]
+silly cache add: name, spec, args [ undefined, 'fstream@0.1.18', [ 'fstream@0.1.18', null ] ]
+verbose parsed url { pathname: 'fstream@0.1.18',
+verbose parsed url   path: 'fstream@0.1.18',
+verbose parsed url   href: 'fstream@0.1.18' }
+silly cache add: name, spec, args [ 'fstream', '0.1.18', [ 'fstream', '0.1.18' ] ]
+verbose parsed url { pathname: '0.1.18', path: '0.1.18', href: '0.1.18' }
+verbose addNamed [ 'fstream', '0.1.18' ]
+verbose addNamed [ '0.1.18', '0.1.18' ]
+verbose cache add [ 'fstream-npm@0.1.0', null ]
+silly cache add: name, spec, args [ undefined, 'fstream-npm@0.1.0', [ 'fstream-npm@0.1.0', null ] ]
+verbose parsed url { pathname: 'fstream-npm@0.1.0',
+verbose parsed url   path: 'fstream-npm@0.1.0',
+verbose parsed url   href: 'fstream-npm@0.1.0' }
+silly cache add: name, spec, args [ 'fstream-npm', '0.1.0', [ 'fstream-npm', '0.1.0' ] ]
+verbose parsed url { pathname: '0.1.0', path: '0.1.0', href: '0.1.0' }
+verbose addNamed [ 'fstream-npm', '0.1.0' ]
+verbose addNamed [ '0.1.0', '0.1.0' ]
+verbose cache add [ 'npm@1.1.59', null ]
+silly cache add: name, spec, args [ undefined, 'npm@1.1.59', [ 'npm@1.1.59', null ] ]
+verbose parsed url { pathname: 'npm@1.1.59',
+verbose parsed url   path: 'npm@1.1.59',
+verbose parsed url   href: 'npm@1.1.59' }
+silly cache add: name, spec, args [ 'npm', '1.1.59', [ 'npm', '1.1.59' ] ]
+verbose parsed url { pathname: '1.1.59', path: '1.1.59', href: '1.1.59' }
+verbose addNamed [ 'npm', '1.1.59' ]
+verbose addNamed [ '1.1.59', '1.1.59' ]
+verbose cache add [ 'nodejitsu-api@0.3.2', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'nodejitsu-api@0.3.2',
+silly cache add: name, spec, args   [ 'nodejitsu-api@0.3.2', null ] ]
+verbose parsed url { pathname: 'nodejitsu-api@0.3.2',
+verbose parsed url   path: 'nodejitsu-api@0.3.2',
+verbose parsed url   href: 'nodejitsu-api@0.3.2' }
+silly cache add: name, spec, args [ 'nodejitsu-api', '0.3.2', [ 'nodejitsu-api', '0.3.2' ] ]
+verbose parsed url { pathname: '0.3.2', path: '0.3.2', href: '0.3.2' }
+verbose addNamed [ 'nodejitsu-api', '0.3.2' ]
+verbose addNamed [ '0.3.2', '0.3.2' ]
+verbose cache add [ 'pkginfo@0.2.3', null ]
+silly cache add: name, spec, args [ undefined, 'pkginfo@0.2.3', [ 'pkginfo@0.2.3', null ] ]
+verbose parsed url { pathname: 'pkginfo@0.2.3',
+verbose parsed url   path: 'pkginfo@0.2.3',
+verbose parsed url   href: 'pkginfo@0.2.3' }
+silly cache add: name, spec, args [ 'pkginfo', '0.2.3', [ 'pkginfo', '0.2.3' ] ]
+verbose parsed url { pathname: '0.2.3', path: '0.2.3', href: '0.2.3' }
+verbose addNamed [ 'pkginfo', '0.2.3' ]
+verbose addNamed [ '0.2.3', '0.2.3' ]
+verbose cache add [ 'request@2.9.100', null ]
+silly cache add: name, spec, args [ undefined, 'request@2.9.100', [ 'request@2.9.100', null ] ]
+verbose parsed url { pathname: 'request@2.9.100',
+verbose parsed url   path: 'request@2.9.100',
+verbose parsed url   href: 'request@2.9.100' }
+silly cache add: name, spec, args [ 'request', '2.9.100', [ 'request', '2.9.100' ] ]
+verbose parsed url { pathname: '2.9.100', path: '2.9.100', href: '2.9.100' }
+verbose addNamed [ 'request', '2.9.100' ]
+verbose addNamed [ '2.9.100', '2.9.100' ]
+verbose cache add [ 'require-analyzer@0.4.0-3', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'require-analyzer@0.4.0-3',
+silly cache add: name, spec, args   [ 'require-analyzer@0.4.0-3', null ] ]
+verbose parsed url { pathname: 'require-analyzer@0.4.0-3',
+verbose parsed url   path: 'require-analyzer@0.4.0-3',
+verbose parsed url   href: 'require-analyzer@0.4.0-3' }
+silly cache add: name, spec, args [ 'require-analyzer',
+silly cache add: name, spec, args   '0.4.0-3',
+silly cache add: name, spec, args   [ 'require-analyzer', '0.4.0-3' ] ]
+verbose parsed url { pathname: '0.4.0-3', path: '0.4.0-3', href: '0.4.0-3' }
+verbose addNamed [ 'require-analyzer', '0.4.0-3' ]
+verbose addNamed [ '0.4.0-3', '0.4.0-3' ]
+verbose cache add [ 'spawn-command@0.0.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'spawn-command@0.0.1',
+silly cache add: name, spec, args   [ 'spawn-command@0.0.1', null ] ]
+verbose parsed url { pathname: 'spawn-command@0.0.1',
+verbose parsed url   path: 'spawn-command@0.0.1',
+verbose parsed url   href: 'spawn-command@0.0.1' }
+silly cache add: name, spec, args [ 'spawn-command', '0.0.1', [ 'spawn-command', '0.0.1' ] ]
+verbose parsed url { pathname: '0.0.1', path: '0.0.1', href: '0.0.1' }
+verbose addNamed [ 'spawn-command', '0.0.1' ]
+verbose addNamed [ '0.0.1', '0.0.1' ]
+verbose cache add [ 'semver@1.0.13', null ]
+silly cache add: name, spec, args [ undefined, 'semver@1.0.13', [ 'semver@1.0.13', null ] ]
+verbose parsed url { pathname: 'semver@1.0.13',
+verbose parsed url   path: 'semver@1.0.13',
+verbose parsed url   href: 'semver@1.0.13' }
+silly cache add: name, spec, args [ 'semver', '1.0.13', [ 'semver', '1.0.13' ] ]
+verbose parsed url { pathname: '1.0.13', path: '1.0.13', href: '1.0.13' }
+verbose addNamed [ 'semver', '1.0.13' ]
+verbose addNamed [ '1.0.13', '1.0.13' ]
+verbose cache add [ 'tar@0.1.13', null ]
+silly cache add: name, spec, args [ undefined, 'tar@0.1.13', [ 'tar@0.1.13', null ] ]
+verbose parsed url { pathname: 'tar@0.1.13',
+verbose parsed url   path: 'tar@0.1.13',
+verbose parsed url   href: 'tar@0.1.13' }
+silly cache add: name, spec, args [ 'tar', '0.1.13', [ 'tar', '0.1.13' ] ]
+verbose parsed url { pathname: '0.1.13', path: '0.1.13', href: '0.1.13' }
+verbose addNamed [ 'tar', '0.1.13' ]
+verbose addNamed [ '0.1.13', '0.1.13' ]
+verbose cache add [ 'wizard@0.0.1', null ]
+silly cache add: name, spec, args [ undefined, 'wizard@0.0.1', [ 'wizard@0.0.1', null ] ]
+verbose parsed url { pathname: 'wizard@0.0.1',
+verbose parsed url   path: 'wizard@0.0.1',
+verbose parsed url   href: 'wizard@0.0.1' }
+silly cache add: name, spec, args [ 'wizard', '0.0.1', [ 'wizard', '0.0.1' ] ]
+verbose parsed url { pathname: '0.0.1', path: '0.0.1', href: '0.0.1' }
+verbose addNamed [ 'wizard', '0.0.1' ]
+verbose addNamed [ '0.0.1', '0.0.1' ]
+verbose raw, before any munging flatiron/0.2.5
+verbose url resolving [ 'https://registry.npmjs.org/', './flatiron/0.2.5' ]
+verbose url resolved https://registry.npmjs.org/flatiron/0.2.5
+http GET https://registry.npmjs.org/flatiron/0.2.5
+verbose raw, before any munging flatiron-cli-config/0.1.3
+verbose url resolving [ 'https://registry.npmjs.org/', './flatiron-cli-config/0.1.3' ]
+verbose url resolved https://registry.npmjs.org/flatiron-cli-config/0.1.3
+http GET https://registry.npmjs.org/flatiron-cli-config/0.1.3
+verbose raw, before any munging flatiron-cli-users/0.1.1
+verbose url resolving [ 'https://registry.npmjs.org/', './flatiron-cli-users/0.1.1' ]
+verbose url resolved https://registry.npmjs.org/flatiron-cli-users/0.1.1
+http GET https://registry.npmjs.org/flatiron-cli-users/0.1.1
+verbose raw, before any munging fstream/0.1.18
+verbose url resolving [ 'https://registry.npmjs.org/', './fstream/0.1.18' ]
+verbose url resolved https://registry.npmjs.org/fstream/0.1.18
+http GET https://registry.npmjs.org/fstream/0.1.18
+verbose raw, before any munging fstream-npm/0.1.0
+verbose url resolving [ 'https://registry.npmjs.org/', './fstream-npm/0.1.0' ]
+verbose url resolved https://registry.npmjs.org/fstream-npm/0.1.0
+http GET https://registry.npmjs.org/fstream-npm/0.1.0
+verbose raw, before any munging npm/1.1.59
+verbose url resolving [ 'https://registry.npmjs.org/', './npm/1.1.59' ]
+verbose url resolved https://registry.npmjs.org/npm/1.1.59
+http GET https://registry.npmjs.org/npm/1.1.59
+verbose raw, before any munging nodejitsu-api/0.3.2
+verbose url resolving [ 'https://registry.npmjs.org/', './nodejitsu-api/0.3.2' ]
+verbose url resolved https://registry.npmjs.org/nodejitsu-api/0.3.2
+http GET https://registry.npmjs.org/nodejitsu-api/0.3.2
+verbose raw, before any munging pkginfo/0.2.3
+verbose url resolving [ 'https://registry.npmjs.org/', './pkginfo/0.2.3' ]
+verbose url resolved https://registry.npmjs.org/pkginfo/0.2.3
+http GET https://registry.npmjs.org/pkginfo/0.2.3
+verbose raw, before any munging request/2.9.100
+verbose url resolving [ 'https://registry.npmjs.org/', './request/2.9.100' ]
+verbose url resolved https://registry.npmjs.org/request/2.9.100
+http GET https://registry.npmjs.org/request/2.9.100
+verbose raw, before any munging require-analyzer/0.4.0-3
+verbose url resolving [ 'https://registry.npmjs.org/', './require-analyzer/0.4.0-3' ]
+verbose url resolved https://registry.npmjs.org/require-analyzer/0.4.0-3
+http GET https://registry.npmjs.org/require-analyzer/0.4.0-3
+verbose raw, before any munging spawn-command/0.0.1
+verbose url resolving [ 'https://registry.npmjs.org/', './spawn-command/0.0.1' ]
+verbose url resolved https://registry.npmjs.org/spawn-command/0.0.1
+http GET https://registry.npmjs.org/spawn-command/0.0.1
+verbose raw, before any munging semver/1.0.13
+verbose url resolving [ 'https://registry.npmjs.org/', './semver/1.0.13' ]
+verbose url resolved https://registry.npmjs.org/semver/1.0.13
+http GET https://registry.npmjs.org/semver/1.0.13
+verbose raw, before any munging tar/0.1.13
+verbose url resolving [ 'https://registry.npmjs.org/', './tar/0.1.13' ]
+verbose url resolved https://registry.npmjs.org/tar/0.1.13
+http GET https://registry.npmjs.org/tar/0.1.13
+verbose raw, before any munging wizard/0.0.1
+verbose url resolving [ 'https://registry.npmjs.org/', './wizard/0.0.1' ]
+verbose url resolved https://registry.npmjs.org/wizard/0.0.1
+http GET https://registry.npmjs.org/wizard/0.0.1
+http 200 https://registry.npmjs.org/colors/0.6.0-1
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"E6FMJ5NH1H1RO6HTTI1MKRMA6"',
+silly get cb     date: 'Sat, 25 Aug 2012 06:21:49 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '682' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-darwin-x64-11.4.0',
+verbose bin dist   { shasum: '6dbb68ceb8bc60f2b313dcc5ce1599f06d19e67a',
+verbose bin dist     tarball: 'http://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz',
+verbose addRemoteTarball   '6dbb68ceb8bc60f2b313dcc5ce1599f06d19e67a' ]
+verbose fetch to /tmp/npm-1345875705496/1345875708970-0.5534462300129235/tmp.tgz
+http GET https://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz
+http 200 https://registry.npmjs.org/dateformat/1.0.2-1.2.3
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"7IB15OKX96GSJB50UFHMJNM5M"',
+silly get cb     date: 'Sat, 25 Aug 2012 06:21:49 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '821' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-darwin-x64-11.4.0',
+verbose bin dist   { shasum: 'b0220c02de98617433b72851cf47de3df2cdbee9',
+verbose bin dist     tarball: 'http://registry.npmjs.org/dateformat/-/dateformat-1.0.2-1.2.3.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/dateformat/-/dateformat-1.0.2-1.2.3.tgz',
+verbose addRemoteTarball   'b0220c02de98617433b72851cf47de3df2cdbee9' ]
+verbose fetch to /tmp/npm-1345875705496/1345875709110-0.9331071265041828/tmp.tgz
+http GET https://registry.npmjs.org/dateformat/-/dateformat-1.0.2-1.2.3.tgz
+http 200 https://registry.npmjs.org/flatiron/0.2.5
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"BBNDG3WXVB2D1CFVHQLRS5LW5"',
+silly get cb     date: 'Sat, 25 Aug 2012 06:21:49 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1167' } ]
+http 200 https://registry.npmjs.org/flatiron-cli-users/0.1.1
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"9S4AYLKRKG9HVZSP2JSJXZ8Y9"',
+silly get cb     date: 'Sat, 25 Aug 2012 06:21:49 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1059' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-darwin-x64-11.4.0',
+verbose bin dist   { shasum: '61f20db8b2f78d8ff8767d9626f7637ac46dbae2',
+verbose bin dist     tarball: 'http://registry.npmjs.org/flatiron/-/flatiron-0.2.5.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/flatiron/-/flatiron-0.2.5.tgz',
+verbose addRemoteTarball   '61f20db8b2f78d8ff8767d9626f7637ac46dbae2' ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-darwin-x64-11.4.0',
+verbose bin dist   { shasum: '0e81702cc727dbf56a5547b9b30e9ef9ab14a6a1',
+verbose bin dist     tarball: 'http://registry.npmjs.org/flatiron-cli-users/-/flatiron-cli-users-0.1.1.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/flatiron-cli-users/-/flatiron-cli-users-0.1.1.tgz',
+verbose addRemoteTarball   '0e81702cc727dbf56a5547b9b30e9ef9ab14a6a1' ]
+verbose fetch to /tmp/npm-1345875705496/1345875709132-0.7617267658933997/tmp.tgz
+verbose fetch to /tmp/npm-1345875705496/1345875709133-0.9786987754050642/tmp.tgz
+http GET https://registry.npmjs.org/flatiron/-/flatiron-0.2.5.tgz
+http GET https://registry.npmjs.org/flatiron-cli-users/-/flatiron-cli-users-0.1.1.tgz
+http 200 https://registry.npmjs.org/fstream-npm/0.1.0
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"D478FK3LPM09VEKY46H1HLAAN"',
+silly get cb     date: 'Sat, 25 Aug 2012 06:21:49 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '805' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-darwin-x64-11.4.0',
+verbose bin dist   { shasum: '9b2bbd7ffb460a845f8cbfb4ddc19124d7b1157e',
+verbose bin dist     tarball: 'http://registry.npmjs.org/fstream-npm/-/fstream-npm-0.1.0.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/fstream-npm/-/fstream-npm-0.1.0.tgz',
+verbose addRemoteTarball   '9b2bbd7ffb460a845f8cbfb4ddc19124d7b1157e' ]
+verbose fetch to /tmp/npm-1345875705496/1345875709282-0.17870753537863493/tmp.tgz
+http GET https://registry.npmjs.org/fstream-npm/-/fstream-npm-0.1.0.tgz
+http 200 https://registry.npmjs.org/fstream/0.1.18
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"679THVF5ZRCM3D7HO2TLGFZES"',
+silly get cb     date: 'Sat, 25 Aug 2012 06:21:49 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '858' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-darwin-x64-11.4.0',
+verbose bin dist   { shasum: '741660affc0b175e57050498d060e53764a3aa34',
+verbose bin dist     tarball: 'http://registry.npmjs.org/fstream/-/fstream-0.1.18.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/fstream/-/fstream-0.1.18.tgz',
+verbose addRemoteTarball   '741660affc0b175e57050498d060e53764a3aa34' ]
+verbose fetch to /tmp/npm-1345875705496/1345875709329-0.30023713246919215/tmp.tgz
+http GET https://registry.npmjs.org/fstream/-/fstream-0.1.18.tgz
+http 200 https://registry.npmjs.org/flatiron-cli-config/0.1.3
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"AA09GC5YXW3DJKYDBC067QAO2"',
+silly get cb     date: 'Sat, 25 Aug 2012 06:21:49 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1048' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-darwin-x64-11.4.0',
+verbose bin dist   { shasum: '06c4b1c8bb2415de68ce54e8109f4160a4035e10',
+verbose bin dist     tarball: 'http://registry.npmjs.org/flatiron-cli-config/-/flatiron-cli-config-0.1.3.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/flatiron-cli-config/-/flatiron-cli-config-0.1.3.tgz',
+verbose addRemoteTarball   '06c4b1c8bb2415de68ce54e8109f4160a4035e10' ]
+verbose fetch to /tmp/npm-1345875705496/1345875709651-0.0318008828908205/tmp.tgz
+http GET https://registry.npmjs.org/flatiron-cli-config/-/flatiron-cli-config-0.1.3.tgz
+http 200 https://registry.npmjs.org/pkginfo/0.2.3
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"74G5CWEA7T93NKLRC4XGNW4DX"',
+silly get cb     date: 'Sat, 25 Aug 2012 06:21:49 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '869' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-darwin-x64-11.4.0',
+verbose bin dist   { shasum: '7239c42a5ef6c30b8f328439d9b9ff71042490f8',
+verbose bin dist     tarball: 'http://registry.npmjs.org/pkginfo/-/pkginfo-0.2.3.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/pkginfo/-/pkginfo-0.2.3.tgz',
+verbose addRemoteTarball   '7239c42a5ef6c30b8f328439d9b9ff71042490f8' ]
+verbose fetch to /tmp/npm-1345875705496/1345875709668-0.5253084204159677/tmp.tgz
+http GET https://registry.npmjs.org/pkginfo/-/pkginfo-0.2.3.tgz
+http 200 https://registry.npmjs.org/nodejitsu-api/0.3.2
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"256M9EXWGHYAFQ3OXWGSWK8AK"',
+silly get cb     date: 'Sat, 25 Aug 2012 06:21:49 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '3509' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-darwin-x64-11.4.0',
+verbose bin dist   { shasum: 'a2ef7870f42e6b124a07353a1007c6c1ac7b8df6',
+verbose bin dist     tarball: 'http://registry.npmjs.org/nodejitsu-api/-/nodejitsu-api-0.3.2.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/nodejitsu-api/-/nodejitsu-api-0.3.2.tgz',
+verbose addRemoteTarball   'a2ef7870f42e6b124a07353a1007c6c1ac7b8df6' ]
+verbose fetch to /tmp/npm-1345875705496/1345875709679-0.46234527812339365/tmp.tgz
+http GET https://registry.npmjs.org/nodejitsu-api/-/nodejitsu-api-0.3.2.tgz
+http 200 https://registry.npmjs.org/npm/1.1.59
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"DKQTTO0QHWDM31AU0I82S8GJG"',
+silly get cb     date: 'Sat, 25 Aug 2012 06:21:49 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '22352' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-darwin-x64-11.4.0',
+verbose bin dist   { shasum: 'c6125f1c304c003a24c71e56d82d0ae76dc24ced',
+verbose bin dist     tarball: 'http://registry.npmjs.org/npm/-/npm-1.1.59.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/npm/-/npm-1.1.59.tgz',
+verbose addRemoteTarball   'c6125f1c304c003a24c71e56d82d0ae76dc24ced' ]
+verbose fetch to /tmp/npm-1345875705496/1345875709726-0.9803920520935208/tmp.tgz
+http GET https://registry.npmjs.org/npm/-/npm-1.1.59.tgz
+http 200 https://registry.npmjs.org/spawn-command/0.0.1
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"ARXNQEQCSEE3LWH9O7GMH7GPC"',
+silly get cb     date: 'Sat, 25 Aug 2012 06:21:49 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1086' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-darwin-x64-11.4.0',
+verbose bin dist   { shasum: '7fd5522baeabb0914f32d2ac0f35713dcc21b727',
+verbose bin dist     tarball: 'http://registry.npmjs.org/spawn-command/-/spawn-command-0.0.1.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/spawn-command/-/spawn-command-0.0.1.tgz',
+verbose addRemoteTarball   '7fd5522baeabb0914f32d2ac0f35713dcc21b727' ]
+verbose fetch to /tmp/npm-1345875705496/1345875709799-0.3932565541472286/tmp.tgz
+http GET https://registry.npmjs.org/spawn-command/-/spawn-command-0.0.1.tgz
+http 200 https://registry.npmjs.org/semver/1.0.13
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"73AMLQQ5S1T6P8OVPUO1EJLI1"',
+silly get cb     date: 'Sat, 25 Aug 2012 06:21:49 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '4909' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-darwin-x64-11.4.0',
+verbose bin dist   { shasum: '9512ce1392105e72a0b739b27f39e0242913d07e',
+verbose bin dist     tarball: 'http://registry.npmjs.org/semver/-/semver-1.0.13.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/semver/-/semver-1.0.13.tgz',
+verbose addRemoteTarball   '9512ce1392105e72a0b739b27f39e0242913d07e' ]
+verbose fetch to /tmp/npm-1345875705496/1345875709964-0.6867183609865606/tmp.tgz
+http GET https://registry.npmjs.org/semver/-/semver-1.0.13.tgz
+http 200 https://registry.npmjs.org/require-analyzer/0.4.0-3
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"6SI57POTID94T6XG11S1P9IBT"',
+silly get cb     date: 'Sat, 25 Aug 2012 06:21:49 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '6122' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-darwin-x64-11.4.0',
+verbose bin dist   { shasum: '877c032f5e1aee5608e726a01664b9e9283c446c',
+verbose bin dist     tarball: 'http://registry.npmjs.org/require-analyzer/-/require-analyzer-0.4.0-3.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/require-analyzer/-/require-analyzer-0.4.0-3.tgz',
+verbose addRemoteTarball   '877c032f5e1aee5608e726a01664b9e9283c446c' ]
+verbose fetch to /tmp/npm-1345875705496/1345875709985-0.10126862325705588/tmp.tgz
+http GET https://registry.npmjs.org/require-analyzer/-/require-analyzer-0.4.0-3.tgz
+http 200 https://registry.npmjs.org/tar/0.1.13
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"5PB1IM1AVR4DVKIIW9E0KXV0W"',
+silly get cb     date: 'Sat, 25 Aug 2012 06:21:50 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '2376' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-darwin-x64-11.4.0',
+verbose bin dist   { shasum: '5e467fcfb4b911ca8881e36eb5c1eb4ab06d9ae5',
+verbose bin dist     tarball: 'http://registry.npmjs.org/tar/-/tar-0.1.13.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/tar/-/tar-0.1.13.tgz',
+verbose addRemoteTarball   '5e467fcfb4b911ca8881e36eb5c1eb4ab06d9ae5' ]
+verbose fetch to /tmp/npm-1345875705496/1345875710042-0.8392078883480281/tmp.tgz
+http GET https://registry.npmjs.org/tar/-/tar-0.1.13.tgz
+http 200 https://registry.npmjs.org/wizard/0.0.1
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"2EEE7Z1JA26CP01KYX1FW9FLL"',
+silly get cb     date: 'Sat, 25 Aug 2012 06:21:50 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '604' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-darwin-x64-11.4.0',
+verbose bin dist   { shasum: 'c5c1e6f72d263c998f015f8dbe12d09ecfd19db8',
+verbose bin dist     tarball: 'http://registry.npmjs.org/wizard/-/wizard-0.0.1.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/wizard/-/wizard-0.0.1.tgz',
+verbose addRemoteTarball   'c5c1e6f72d263c998f015f8dbe12d09ecfd19db8' ]
+verbose fetch to /tmp/npm-1345875705496/1345875710099-0.8233821429312229/tmp.tgz
+http GET https://registry.npmjs.org/wizard/-/wizard-0.0.1.tgz
+http 200 https://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz
+http 200 https://registry.npmjs.org/dateformat/-/dateformat-1.0.2-1.2.3.tgz
+http 200 https://registry.npmjs.org/flatiron/-/flatiron-0.2.5.tgz
+silly updated sha bytes 3998
+info shasum b0220c02de98617433b72851cf47de3df2cdbee9
+info shasum /tmp/npm-1345875705496/1345875709110-0.9331071265041828/tmp.tgz
+verbose unpack /tmp/npm-1345875705496/1345875709110-0.9331071265041828/tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly updated sha bytes 10240
+info shasum 6dbb68ceb8bc60f2b313dcc5ce1599f06d19e67a
+info shasum /tmp/npm-1345875705496/1345875708970-0.5534462300129235/tmp.tgz
+verbose unpack /tmp/npm-1345875705496/1345875708970-0.5534462300129235/tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry Readme.md
+silly extracting entry lib/dateformat.js
+silly extracting entry colors.js
+silly extracting entry example.html
+silly extracting entry example.js
+silly extracting entry MIT-LICENSE.txt
+silly extracting entry test/test_weekofyear.js
+silly extracting entry test/test_weekofyear.sh
+silly extracting entry package.json
+silly extracting entry ReadMe.md
+silly extracting entry test.js
+verbose caching /tmp/npm-1345875705496/1345875709110-0.9331071265041828/package/package.json
+verbose loadDefaults dateformat@1.0.2-1.2.3
+verbose from cache /tmp/npm-1345875705496/1345875709110-0.9331071265041828/package/package.json
+verbose tar.pack [ '/Users/balmerr/.npm/dateformat/1.0.2-1.2.3/package.tgz',
+verbose tar.pack   '/tmp/npm-1345875705496/1345875709110-0.9331071265041828/package' ]
+verbose tarball /Users/balmerr/.npm/dateformat/1.0.2-1.2.3/package.tgz
+verbose folder /tmp/npm-1345875705496/1345875709110-0.9331071265041828/package
+verbose caching /tmp/npm-1345875705496/1345875708970-0.5534462300129235/package/package.json
+verbose loadDefaults colors@0.6.0-1
+verbose from cache /tmp/npm-1345875705496/1345875708970-0.5534462300129235/package/package.json
+verbose tar.pack [ '/Users/balmerr/.npm/colors/0.6.0-1/package.tgz',
+verbose tar.pack   '/tmp/npm-1345875705496/1345875708970-0.5534462300129235/package' ]
+verbose tarball /Users/balmerr/.npm/colors/0.6.0-1/package.tgz
+verbose folder /tmp/npm-1345875705496/1345875708970-0.5534462300129235/package
+verbose unpack /Users/balmerr/.npm/dateformat/1.0.2-1.2.3/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry lib/dateformat.js
+silly extracting entry Readme.md
+silly extracting entry test/test_weekofyear.js
+silly extracting entry test/test_weekofyear.sh
+verbose unpack /Users/balmerr/.npm/colors/0.6.0-1/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry colors.js
+silly extracting entry example.js
+silly extracting entry test.js
+silly extracting entry example.html
+silly extracting entry MIT-LICENSE.txt
+silly extracting entry ReadMe.md
+verbose caching /Users/balmerr/.npm/dateformat/1.0.2-1.2.3/package/package.json
+verbose loadDefaults dateformat@1.0.2-1.2.3
+silly updated sha bytes 4544
+info shasum 7c7241c2ed35dfbd148a0a139a02a33b93b753de
+info shasum /Users/balmerr/.npm/dateformat/1.0.2-1.2.3/package.tgz
+verbose from cache /Users/balmerr/.npm/dateformat/1.0.2-1.2.3/package/package.json
+verbose chmod /Users/balmerr/.npm/dateformat/1.0.2-1.2.3/package.tgz 644
+verbose chown [ '/Users/balmerr/.npm/dateformat/1.0.2-1.2.3/package.tgz',
+verbose chown   1857463367,
+verbose chown   1047304036 ]
+verbose caching /Users/balmerr/.npm/colors/0.6.0-1/package/package.json
+verbose loadDefaults colors@0.6.0-1
+silly updated sha bytes 6097
+info shasum 8b0a24f1c0cb1b19e02f41678e82a6b8ced4da3d
+info shasum /Users/balmerr/.npm/colors/0.6.0-1/package.tgz
+verbose from cache /Users/balmerr/.npm/colors/0.6.0-1/package/package.json
+verbose chmod /Users/balmerr/.npm/colors/0.6.0-1/package.tgz 644
+verbose chown [ '/Users/balmerr/.npm/colors/0.6.0-1/package.tgz',
+verbose chown   1857463367,
+verbose chown   1047304036 ]
+http 200 https://registry.npmjs.org/complete/0.3.1
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"CW6GCKAH854QUF2VH9ZUXB4ZY"',
+silly get cb     date: 'Sat, 25 Aug 2012 06:21:50 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '4406' } ]
+silly updated sha bytes 15884
+info shasum 61f20db8b2f78d8ff8767d9626f7637ac46dbae2
+info shasum /tmp/npm-1345875705496/1345875709132-0.7617267658933997/tmp.tgz
+verbose unpack /tmp/npm-1345875705496/1345875709132-0.7617267658933997/tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry .npmignore
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-darwin-x64-11.4.0',
+verbose bin dist   { shasum: '9950ac77d1ac4991a9dcc782b33dfae253bf8bda',
+verbose bin dist     tarball: 'http://registry.npmjs.org/complete/-/complete-0.3.1.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/complete/-/complete-0.3.1.tgz',
+verbose addRemoteTarball   '9950ac77d1ac4991a9dcc782b33dfae253bf8bda' ]
+verbose fetch to /tmp/npm-1345875705496/1345875710330-0.6140678010415286/tmp.tgz
+silly extracting entry .travis.yml
+silly extracting entry bin/
+http GET https://registry.npmjs.org/complete/-/complete-0.3.1.tgz
+silly extracting entry bin/flatiron
+silly extracting entry examples/
+http 200 https://registry.npmjs.org/flatiron-cli-users/-/flatiron-cli-users-0.1.1.tgz
+silly extracting entry examples/cli-sample/
+silly extracting entry examples/cli-sample/index.js
+silly extracting entry examples/cli-sample/print.js
+silly extracting entry examples/ecstatic-app/
+silly extracting entry examples/ecstatic-app/app/
+silly extracting entry examples/ecstatic-app/app/assets/
+silly extracting entry examples/ecstatic-app/app/assets/style.css
+silly extracting entry examples/ecstatic-app/app/assets/style.js
+http 200 https://registry.npmjs.org/fstream-npm/-/fstream-npm-0.1.0.tgz
+silly extracting entry examples/ecstatic-app/app.js
+silly extracting entry examples/ecstatic-app/package.json
+silly extracting entry examples/http-sample.js
+silly extracting entry examples/resourceful-app/
+silly extracting entry examples/resourceful-app/app/
+silly extracting entry examples/resourceful-app/app/resources/
+silly extracting entry examples/resourceful-app/app/resources/creature.js
+silly extracting entry examples/resourceful-app/app.js
+silly extracting entry examples/resourceful-app/package.json
+silly extracting entry examples/socket.io/
+silly extracting entry examples/socket.io/index.html
+silly extracting entry examples/socket.io/server.js
+silly extracting entry lib/
+silly extracting entry lib/flatiron/
+silly extracting entry lib/flatiron/app.js
+silly extracting entry lib/flatiron/cli/
+silly extracting entry lib/flatiron/cli/create.js
+silly extracting entry lib/flatiron/common.js
+silly extracting entry lib/flatiron/constants.js
+silly extracting entry lib/flatiron/plugins/
+silly extracting entry lib/flatiron/plugins/cli.js
+silly extracting entry lib/flatiron/plugins/ecstatic.js
+silly extracting entry lib/flatiron/plugins/http.js
+silly extracting entry lib/flatiron/plugins/resourceful.js
+silly extracting entry lib/flatiron.js
+silly extracting entry LICENSE
+silly extracting entry package.json
+silly extracting entry README.md
+silly extracting entry scaffolds/
+silly extracting entry scaffolds/cli/
+silly extracting entry scaffolds/cli/app.js
+silly extracting entry scaffolds/cli/config/
+silly extracting entry scaffolds/cli/config/config.json
+silly extracting entry scaffolds/cli/directories.json
+silly extracting entry scaffolds/cli/files.json
+silly extracting entry scaffolds/cli/lib/
+silly extracting entry scaffolds/cli/lib/index.js
+silly extracting entry scaffolds/cli/package.json
+silly extracting entry scaffolds/http/
+silly extracting entry scaffolds/http/app.js
+silly extracting entry scaffolds/http/config/
+silly extracting entry scaffolds/http/config/config.json
+silly extracting entry scaffolds/http/directories.json
+silly extracting entry scaffolds/http/files.json
+silly extracting entry scaffolds/http/package.json
+silly extracting entry test/
+silly extracting entry test/fixtures/
+silly extracting entry test/fixtures/sample-app/
+silly extracting entry test/fixtures/sample-app/app/
+silly extracting entry test/fixtures/sample-app/app/new-york/
+silly extracting entry test/fixtures/sample-app/app/new-york/controller.js
+silly extracting entry test/fixtures/sample-app/app/new-york/index.js
+silly extracting entry test/fixtures/sample-app/app/new-york/new-york.js
+silly extracting entry test/flatiron-test.js
+silly extracting entry test/plugins/
+silly extracting entry test/plugins/ecstatic-test.js
+silly extracting entry test/plugins/resourceful-test.js
+verbose caching /tmp/npm-1345875705496/1345875709132-0.7617267658933997/package/package.json
+verbose loadDefaults flatiron@0.2.5
+verbose from cache /tmp/npm-1345875705496/1345875709132-0.7617267658933997/package/package.json
+verbose tar.pack [ '/Users/balmerr/.npm/flatiron/0.2.5/package.tgz',
+verbose tar.pack   '/tmp/npm-1345875705496/1345875709132-0.7617267658933997/package' ]
+verbose tarball /Users/balmerr/.npm/flatiron/0.2.5/package.tgz
+verbose folder /tmp/npm-1345875705496/1345875709132-0.7617267658933997/package
+silly updated sha bytes 7070
+info shasum 0e81702cc727dbf56a5547b9b30e9ef9ab14a6a1
+info shasum /tmp/npm-1345875705496/1345875709133-0.9786987754050642/tmp.tgz
+verbose unpack /tmp/npm-1345875705496/1345875709133-0.9786987754050642/tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+http 200 https://registry.npmjs.org/flatiron-cli-config/-/flatiron-cli-config-0.1.3.tgz
+http 200 https://registry.npmjs.org/fstream/-/fstream-0.1.18.tgz
+silly extracting entry .npmignore
+silly updated sha bytes 5094
+silly extracting entry examples/
+silly extracting entry examples/app.js
+info shasum 9b2bbd7ffb460a845f8cbfb4ddc19124d7b1157e
+info shasum /tmp/npm-1345875705496/1345875709282-0.17870753537863493/tmp.tgz
+verbose unpack /tmp/npm-1345875705496/1345875709282-0.17870753537863493/tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry lib/
+silly extracting entry lib/commands.js
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry lib/flatiron-cli-users.js
+silly extracting entry lib/properties.js
+silly extracting entry LICENCE
+silly extracting entry fstream-npm.js
+silly extracting entry package.json
+silly extracting entry README.md
+silly extracting entry test/
+silly extracting entry test/cli-users-test.js
+silly extracting entry test/commands-test.js
+silly extracting entry example/bundle.js
+silly extracting entry example/dir-tar.js
+silly extracting entry test/fixtures/
+silly extracting entry test/fixtures/dot-appconf
+silly extracting entry test/helpers/
+silly extracting entry test/helpers/macros.js
+silly extracting entry example/dir.js
+silly extracting entry example/example.js
+silly extracting entry example/ig-tar.js
+silly extracting entry example/tar.js
+verbose caching /tmp/npm-1345875705496/1345875709282-0.17870753537863493/package/package.json
+verbose loadDefaults fstream-npm@0.1.0
+verbose from cache /tmp/npm-1345875705496/1345875709282-0.17870753537863493/package/package.json
+verbose tar.pack [ '/Users/balmerr/.npm/fstream-npm/0.1.0/package.tgz',
+verbose tar.pack   '/tmp/npm-1345875705496/1345875709282-0.17870753537863493/package' ]
+verbose tarball /Users/balmerr/.npm/fstream-npm/0.1.0/package.tgz
+verbose folder /tmp/npm-1345875705496/1345875709282-0.17870753537863493/package
+verbose caching /tmp/npm-1345875705496/1345875709133-0.9786987754050642/package/package.json
+verbose loadDefaults flatiron-cli-users@0.1.1
+verbose from cache /tmp/npm-1345875705496/1345875709133-0.9786987754050642/package/package.json
+verbose tar.pack [ '/Users/balmerr/.npm/flatiron-cli-users/0.1.1/package.tgz',
+verbose tar.pack   '/tmp/npm-1345875705496/1345875709133-0.9786987754050642/package' ]
+verbose tarball /Users/balmerr/.npm/flatiron-cli-users/0.1.1/package.tgz
+verbose folder /tmp/npm-1345875705496/1345875709133-0.9786987754050642/package
+verbose unpack /Users/balmerr/.npm/fstream-npm/0.1.0/package.tgz
+silly updated sha bytes 4096
+silly updated sha bytes 17276
+silly updated sha bytes 319
+info shasum 741660affc0b175e57050498d060e53764a3aa34
+info shasum /tmp/npm-1345875705496/1345875709329-0.30023713246919215/tmp.tgz
+verbose unpack /tmp/npm-1345875705496/1345875709329-0.30023713246919215/tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+info shasum 06c4b1c8bb2415de68ce54e8109f4160a4035e10
+info shasum /tmp/npm-1345875705496/1345875709651-0.0318008828908205/tmp.tgz
+verbose unpack /tmp/npm-1345875705496/1345875709651-0.0318008828908205/tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+http 200 https://registry.npmjs.org/nodejitsu-api/-/nodejitsu-api-0.3.2.tgz
+silly extracting entry package.json
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry LICENCE
+silly extracting entry fstream-npm.js
+silly extracting entry LICENCE
+silly extracting entry fstream.js
+silly extracting entry LICENSE
+silly extracting entry test/cli-config-test.js
+silly extracting entry example/bundle.js
+silly extracting entry example/dir-tar.js
+silly extracting entry .travis.yml
+silly extracting entry examples/filter-pipe.js
+silly extracting entry test/commands-test.js
+silly extracting entry examples/app.js
+silly extracting entry examples/pipe.js
+silly extracting entry lib/flatiron-cli-config.js
+silly extracting entry examples/reader.js
+silly extracting entry lib/commands.js
+silly extracting entry example/dir.js
+silly extracting entry example/example.js
+silly extracting entry examples/symlink-write.js
+silly extracting entry example/ig-tar.js
+silly extracting entry lib/abstract.js
+silly extracting entry lib/dir-writer.js
+silly extracting entry lib/file-reader.js
+silly extracting entry example/tar.js
+silly extracting entry lib/file-writer.js
+silly extracting entry lib/get-type.js
+silly extracting entry lib/dir-reader.js
+silly extracting entry lib/link-writer.js
+silly extracting entry lib/proxy-reader.js
+silly extracting entry lib/proxy-writer.js
+silly extracting entry lib/reader.js
+silly extracting entry lib/socket-reader.js
+silly extracting entry lib/collect.js
+silly extracting entry lib/writer.js
+silly extracting entry lib/link-reader.js
+verbose unpack /Users/balmerr/.npm/flatiron-cli-users/0.1.1/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry examples/app.js
+silly extracting entry lib/commands.js
+silly extracting entry lib/flatiron-cli-users.js
+silly extracting entry lib/properties.js
+silly extracting entry test/cli-users-test.js
+verbose caching /tmp/npm-1345875705496/1345875709651-0.0318008828908205/package/package.json
+verbose loadDefaults flatiron-cli-config@0.1.3
+verbose from cache /tmp/npm-1345875705496/1345875709651-0.0318008828908205/package/package.json
+silly extracting entry test/commands-test.js
+silly extracting entry test/fixtures/dot-appconf
+verbose tar.pack [ '/Users/balmerr/.npm/flatiron-cli-config/0.1.3/package.tgz',
+verbose tar.pack   '/tmp/npm-1345875705496/1345875709651-0.0318008828908205/package' ]
+verbose tarball /Users/balmerr/.npm/flatiron-cli-config/0.1.3/package.tgz
+verbose folder /tmp/npm-1345875705496/1345875709651-0.0318008828908205/package
+silly extracting entry test/helpers/macros.js
+verbose caching /Users/balmerr/.npm/fstream-npm/0.1.0/package/package.json
+verbose loadDefaults fstream-npm@0.1.0
+silly updated sha bytes 8558
+info shasum a2ef7870f42e6b124a07353a1007c6c1ac7b8df6
+info shasum /tmp/npm-1345875705496/1345875709679-0.46234527812339365/tmp.tgz
+verbose unpack /tmp/npm-1345875705496/1345875709679-0.46234527812339365/tmp.tgz
+silly updated sha bytes 6000
+silly gunzTarPerm modes [ '755', '644' ]
+info shasum e299ec438b05134d4bdeab4aa36cbacce7a539d4
+info shasum /Users/balmerr/.npm/fstream-npm/0.1.0/package.tgz
+verbose from cache /Users/balmerr/.npm/fstream-npm/0.1.0/package/package.json
+verbose chmod /Users/balmerr/.npm/fstream-npm/0.1.0/package.tgz 644
+verbose chown [ '/Users/balmerr/.npm/fstream-npm/0.1.0/package.tgz',
+verbose chown   1857463367,
+verbose chown   1047304036 ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry examples/check-auth.js
+silly extracting entry examples/destroy-key.js
+silly extracting entry examples/get-application.js
+silly extracting entry examples/get-key.js
+silly extracting entry examples/get-logs-by-app.js
+http 200 https://registry.npmjs.org/spawn-command/-/spawn-command-0.0.1.tgz
+silly extracting entry examples/create-ssh-key.js
+silly extracting entry examples/list-apps.js
+http 200 https://registry.npmjs.org/npm/-/npm-1.1.59.tgz
+silly extracting entry examples/list-keys.js
+silly extracting entry examples/restart-app.js
+silly extracting entry examples/snapshots-list.js
+silly extracting entry examples/start-app.js
+silly extracting entry examples/create-api-key.js
+silly extracting entry examples/stop-app.js
+silly extracting entry examples/get-logs-by-user.js
+silly extracting entry lib/client.js
+silly extracting entry lib/client/apps.js
+silly extracting entry lib/client/client.js
+silly extracting entry lib/client/databases.js
+silly extracting entry lib/client/helpers.js
+silly extracting entry lib/client/keys.js
+silly extracting entry lib/client/logs.js
+silly extracting entry lib/client/snapshots.js
+silly extracting entry lib/client/users.js
+verbose unpack /Users/balmerr/.npm/flatiron/0.2.5/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry ReadMe.md
+silly extracting entry test/helpers.js
+silly extracting entry package.json
+verbose caching /Users/balmerr/.npm/flatiron-cli-users/0.1.1/package/package.json
+verbose loadDefaults flatiron-cli-users@0.1.1
+silly updated sha bytes 8064
+silly extracting entry .npmignore
+silly extracting entry README.md
+info shasum af616359fe5171edcda5a3e6b0b761e4bd66e635
+info shasum /Users/balmerr/.npm/flatiron-cli-users/0.1.1/package.tgz
+verbose from cache /Users/balmerr/.npm/flatiron-cli-users/0.1.1/package/package.json
+verbose chmod /Users/balmerr/.npm/flatiron-cli-users/0.1.1/package.tgz 644
+verbose chown [ '/Users/balmerr/.npm/flatiron-cli-users/0.1.1/package.tgz',
+verbose chown   1857463367,
+verbose chown   1047304036 ]
+silly extracting entry test/macros.js
+silly extracting entry test/commands/apps-test.js
+silly extracting entry LICENSE
+silly extracting entry .travis.yml
+silly extracting entry test/commands/databases-test.js
+silly extracting entry test/commands/logs-test.js
+verbose unpack /Users/balmerr/.npm/flatiron-cli-config/0.1.3/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry bin/flatiron
+silly extracting entry examples/http-sample.js
+silly extracting entry test/commands/snapshots-test.js
+silly extracting entry test/commands/users-test.js
+silly extracting entry examples/cli-sample/index.js
+silly extracting entry examples/cli-sample/print.js
+silly extracting entry package.json
+silly extracting entry examples/ecstatic-app/package.json
+silly extracting entry examples/ecstatic-app/app.js
+silly extracting entry examples/ecstatic-app/app/assets/style.js
+silly extracting entry test/fixtures/snapshot.tgz
+silly extracting entry examples/ecstatic-app/app/assets/style.css
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry examples/resourceful-app/package.json
+silly extracting entry examples/resourceful-app/app.js
+silly extracting entry examples/resourceful-app/app/resources/creature.js
+silly extracting entry examples/socket.io/server.js
+silly extracting entry examples/socket.io/index.html
+silly extracting entry lib/flatiron.js
+silly extracting entry lib/flatiron/app.js
+silly extracting entry lib/flatiron/common.js
+silly extracting entry LICENSE
+silly extracting entry examples/app.js
+silly extracting entry lib/flatiron/constants.js
+http 200 https://registry.npmjs.org/semver/-/semver-1.0.13.tgz
+silly extracting entry lib/flatiron/cli/create.js
+silly extracting entry lib/flatiron/plugins/cli.js
+silly extracting entry lib/flatiron/plugins/ecstatic.js
+silly extracting entry lib/flatiron/plugins/http.js
+silly extracting entry lib/flatiron/plugins/resourceful.js
+silly extracting entry lib/commands.js
+silly extracting entry lib/flatiron-cli-config.js
+silly extracting entry test/cli-config-test.js
+silly extracting entry test/commands-test.js
+silly extracting entry scaffolds/cli/package.json
+silly extracting entry scaffolds/cli/app.js
+silly extracting entry scaffolds/cli/config/config.json
+silly updated sha bytes 2083
+info shasum 7fd5522baeabb0914f32d2ac0f35713dcc21b727
+info shasum /tmp/npm-1345875705496/1345875709799-0.3932565541472286/tmp.tgz
+verbose unpack /tmp/npm-1345875705496/1345875709799-0.3932565541472286/tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry scaffolds/cli/directories.json
+silly extracting entry scaffolds/cli/files.json
+silly extracting entry package.json
+silly extracting entry scaffolds/cli/lib/index.js
+silly extracting entry scaffolds/http/package.json
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry LICENSE
+silly extracting entry .travis.yml
+silly extracting entry scaffolds/http/app.js
+silly extracting entry scaffolds/http/config/config.json
+silly extracting entry examples/simple.js
+silly extracting entry lib/spawn-command.js
+verbose caching /tmp/npm-1345875705496/1345875709329-0.30023713246919215/package/package.json
+verbose loadDefaults fstream@0.1.18
+verbose from cache /tmp/npm-1345875705496/1345875709329-0.30023713246919215/package/package.json
+verbose tar.pack [ '/Users/balmerr/.npm/fstream/0.1.18/package.tgz',
+verbose tar.pack   '/tmp/npm-1345875705496/1345875709329-0.30023713246919215/package' ]
+verbose tarball /Users/balmerr/.npm/fstream/0.1.18/package.tgz
+verbose folder /tmp/npm-1345875705496/1345875709329-0.30023713246919215/package
+silly extracting entry scaffolds/http/directories.json
+silly extracting entry scaffolds/http/files.json
+silly extracting entry test/spawn-command-test.js
+silly extracting entry test/fixtures/commit
+silly extracting entry test/flatiron-test.js
+silly extracting entry test/fixtures/sample-app/app/new-york/controller.js
+silly extracting entry test/fixtures/sample-app/app/new-york/index.js
+silly extracting entry test/fixtures/sample-app/app/new-york/new-york.js
+silly extracting entry test/plugins/ecstatic-test.js
+silly extracting entry test/plugins/resourceful-test.js
+verbose caching /Users/balmerr/.npm/flatiron-cli-config/0.1.3/package/package.json
+verbose loadDefaults flatiron-cli-config@0.1.3
+silly updated sha bytes 5295
+info shasum 40070a4eb70af3d9b6da867b13411deca1f83763
+info shasum /Users/balmerr/.npm/flatiron-cli-config/0.1.3/package.tgz
+verbose from cache /Users/balmerr/.npm/flatiron-cli-config/0.1.3/package/package.json
+verbose chmod /Users/balmerr/.npm/flatiron-cli-config/0.1.3/package.tgz 644
+verbose chown [ '/Users/balmerr/.npm/flatiron-cli-config/0.1.3/package.tgz',
+verbose chown   1857463367,
+verbose chown   1047304036 ]
+verbose caching /tmp/npm-1345875705496/1345875709799-0.3932565541472286/package/package.json
+verbose loadDefaults spawn-command@0.0.1
+verbose from cache /tmp/npm-1345875705496/1345875709799-0.3932565541472286/package/package.json
+verbose tar.pack [ '/Users/balmerr/.npm/spawn-command/0.0.1/package.tgz',
+verbose tar.pack   '/tmp/npm-1345875705496/1345875709799-0.3932565541472286/package' ]
+verbose tarball /Users/balmerr/.npm/spawn-command/0.0.1/package.tgz
+verbose folder /tmp/npm-1345875705496/1345875709799-0.3932565541472286/package
+silly updated sha bytes 7986
+info shasum 9512ce1392105e72a0b739b27f39e0242913d07e
+info shasum /tmp/npm-1345875705496/1345875709964-0.6867183609865606/tmp.tgz
+verbose unpack /tmp/npm-1345875705496/1345875709964-0.6867183609865606/tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry bin/
+silly extracting entry bin/semver
+silly extracting entry LICENSE
+silly extracting entry package.json
+silly extracting entry README.md
+silly extracting entry semver.js
+silly extracting entry test.js
+http 200 https://registry.npmjs.org/require-analyzer/-/require-analyzer-0.4.0-3.tgz
+verbose caching /tmp/npm-1345875705496/1345875709679-0.46234527812339365/package/package.json
+verbose loadDefaults nodejitsu-api@0.3.2
+verbose from cache /tmp/npm-1345875705496/1345875709679-0.46234527812339365/package/package.json
+verbose tar.pack [ '/Users/balmerr/.npm/nodejitsu-api/0.3.2/package.tgz',
+verbose tar.pack   '/tmp/npm-1345875705496/1345875709679-0.46234527812339365/package' ]
+verbose tarball /Users/balmerr/.npm/nodejitsu-api/0.3.2/package.tgz
+verbose folder /tmp/npm-1345875705496/1345875709679-0.46234527812339365/package
+verbose unpack /Users/balmerr/.npm/spawn-command/0.0.1/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry LICENSE
+silly extracting entry .travis.yml
+silly extracting entry examples/simple.js
+silly extracting entry lib/spawn-command.js
+silly extracting entry test/spawn-command-test.js
+silly extracting entry test/fixtures/commit
+verbose caching /tmp/npm-1345875705496/1345875709964-0.6867183609865606/package/package.json
+verbose loadDefaults semver@1.0.13
+verbose from cache /tmp/npm-1345875705496/1345875709964-0.6867183609865606/package/package.json
+verbose tar.pack [ '/Users/balmerr/.npm/semver/1.0.13/package.tgz',
+verbose tar.pack   '/tmp/npm-1345875705496/1345875709964-0.6867183609865606/package' ]
+verbose tarball /Users/balmerr/.npm/semver/1.0.13/package.tgz
+verbose folder /tmp/npm-1345875705496/1345875709964-0.6867183609865606/package
+http 200 https://registry.npmjs.org/pkginfo/-/pkginfo-0.2.3.tgz
+http 200 https://registry.npmjs.org/tar/-/tar-0.1.13.tgz
+verbose caching /Users/balmerr/.npm/spawn-command/0.0.1/package/package.json
+verbose loadDefaults spawn-command@0.0.1
+silly updated sha bytes 2784
+info shasum f75107523583657e8c222a73ddeae5a37b942953
+info shasum /Users/balmerr/.npm/spawn-command/0.0.1/package.tgz
+verbose from cache /Users/balmerr/.npm/spawn-command/0.0.1/package/package.json
+verbose chmod /Users/balmerr/.npm/spawn-command/0.0.1/package.tgz 644
+verbose chown [ '/Users/balmerr/.npm/spawn-command/0.0.1/package.tgz',
+verbose chown   1857463367,
+verbose chown   1047304036 ]
+silly updated sha bytes 22654
+info shasum 877c032f5e1aee5608e726a01664b9e9283c446c
+info shasum /tmp/npm-1345875705496/1345875709985-0.10126862325705588/tmp.tgz
+verbose unpack /tmp/npm-1345875705496/1345875709985-0.10126862325705588/tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry bin/
+verbose unpack /Users/balmerr/.npm/semver/1.0.13/package.tgz
+silly extracting entry bin/require-analyzer
+silly extracting entry bin/find-dependencies
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry README.md
+silly extracting entry package.json
+silly extracting entry test/
+silly extracting entry test/example-apps-test.js
+silly extracting entry package.json
+silly extracting entry test/require-analyzer-test.js
+silly extracting entry test/fixtures/
+silly extracting entry test/fixtures/conflicting-app/
+silly extracting entry test/fixtures/conflicting-app/package.json
+verbose unpack /Users/balmerr/.npm/fstream/0.1.18/package.tgz
+silly extracting entry README.md
+silly extracting entry LICENSE
+silly extracting entry test/fixtures/conflicting-app/index.js
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry test/fixtures/subdeps/
+silly extracting entry test/fixtures/subdeps/package.json
+silly extracting entry test/fixtures/subdeps/app.js
+silly extracting entry semver.js
+silly extracting entry test.js
+silly extracting entry package.json
+silly extracting entry bin/semver
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry test/fixtures/subdeps/otherstuff.js
+silly extracting entry test/fixtures/version-ranges/
+silly extracting entry test/fixtures/version-ranges/package.json
+silly extracting entry LICENCE
+silly extracting entry fstream.js
+silly extracting entry test/fixtures/version-ranges/app.js
+silly extracting entry test/fixtures/version-ranges/otherstuff.js
+silly extracting entry test/fixtures/socket-io-app/
+silly extracting entry test/fixtures/socket-io-app/index.js
+silly extracting entry test/fixtures/require-only/
+silly extracting entry test/fixtures/require-only/index.js
+verbose caching /Users/balmerr/.npm/flatiron/0.2.5/package/package.json
+verbose loadDefaults flatiron@0.2.5
+silly extracting entry .travis.yml
+silly extracting entry examples/filter-pipe.js
+silly extracting entry test/fixtures/explicit-versions/
+silly extracting entry test/fixtures/explicit-versions/package.json
+silly extracting entry examples/pipe.js
+silly updated sha bytes 19238
+silly extracting entry test/fixtures/explicit-versions/app.js
+silly extracting entry examples/reader.js
+info shasum dec3aa64508dbd2f70df4b710133ecbfa7b8311b
+info shasum /Users/balmerr/.npm/flatiron/0.2.5/package.tgz
+verbose from cache /Users/balmerr/.npm/flatiron/0.2.5/package/package.json
+verbose chmod /Users/balmerr/.npm/flatiron/0.2.5/package.tgz 644
+verbose chown [ '/Users/balmerr/.npm/flatiron/0.2.5/package.tgz',
+verbose chown   1857463367,
+verbose chown   1047304036 ]
+silly extracting entry examples/symlink-write.js
+silly extracting entry test/fixtures/wildcards/
+silly extracting entry test/fixtures/wildcards/package.json
+silly extracting entry lib/abstract.js
+silly extracting entry lib/dir-writer.js
+silly extracting entry test/fixtures/wildcards/index.js
+silly extracting entry lib/file-reader.js
+silly extracting entry test/fixtures/example-app3/
+silly extracting entry test/fixtures/example-app3/package.json
+silly extracting entry lib/file-writer.js
+silly extracting entry lib/get-type.js
+silly extracting entry lib/dir-reader.js
+silly extracting entry test/fixtures/example-app3/index.js
+silly extracting entry test/fixtures/example-app1/
+silly extracting entry test/fixtures/example-app1/package.json
+silly extracting entry test/fixtures/example-app1/index.js
+silly extracting entry test/fixtures/.npmignore
+silly extracting entry lib/link-writer.js
+silly extracting entry lib/proxy-reader.js
+silly extracting entry test/fixtures/example-app2/
+silly extracting entry test/fixtures/example-app2/package.json
+silly extracting entry test/fixtures/example-app2/index.js
+silly extracting entry test/fixtures/dynamic-deps/
+silly extracting entry test/fixtures/dynamic-deps/package.json
+silly extracting entry test/fixtures/dynamic-deps/index.js
+silly extracting entry lib/proxy-writer.js
+silly extracting entry lib/reader.js
+silly extracting entry test/require-analyzer-cli-test.js
+silly extracting entry lib/socket-reader.js
+silly extracting entry lib/collect.js
+silly extracting entry lib/writer.js
+silly extracting entry lib/link-reader.js
+silly extracting entry docs/
+silly extracting entry docs/require-analyzer.html
+silly extracting entry docs/docco.css
+silly extracting entry .npmignore
+silly extracting entry lib/
+silly extracting entry lib/require-analyzer.js
+verbose caching /Users/balmerr/.npm/semver/1.0.13/package/package.json
+verbose loadDefaults semver@1.0.13
+silly updated sha bytes 8790
+info shasum 74fd06dbb91611171a7abf6a04cb191c21709ade
+info shasum /Users/balmerr/.npm/semver/1.0.13/package.tgz
+verbose from cache /Users/balmerr/.npm/semver/1.0.13/package/package.json
+verbose chmod /Users/balmerr/.npm/semver/1.0.13/package.tgz 644
+verbose chown [ '/Users/balmerr/.npm/semver/1.0.13/package.tgz',
+verbose chown   1857463367,
+verbose chown   1047304036 ]
+verbose unpack /Users/balmerr/.npm/nodejitsu-api/0.3.2/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly updated sha bytes 10240
+silly extracting entry .npmignore
+silly extracting entry examples/check-auth.js
+info shasum 7239c42a5ef6c30b8f328439d9b9ff71042490f8
+info shasum /tmp/npm-1345875705496/1345875709668-0.5253084204159677/tmp.tgz
+verbose unpack /tmp/npm-1345875705496/1345875709668-0.5253084204159677/tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry .gitignore
+silly extracting entry examples/destroy-key.js
+silly extracting entry examples/get-application.js
+silly extracting entry package.json
+silly extracting entry README.md
+silly extracting entry examples/get-key.js
+silly extracting entry examples/get-logs-by-app.js
+silly extracting entry docs/docco.css
+silly extracting entry docs/pkginfo.html
+silly extracting entry examples/create-ssh-key.js
+silly extracting entry examples/list-apps.js
+silly extracting entry lib/pkginfo.js
+silly extracting entry test/pkginfo-test.js
+silly extracting entry examples/all-properties.js
+silly extracting entry examples/array-argument.js
+silly extracting entry examples/multiple-properties.js
+silly extracting entry examples/list-keys.js
+silly extracting entry examples/restart-app.js
+silly extracting entry examples/object-argument.js
+silly extracting entry examples/package.json
+silly extracting entry examples/single-property.js
+silly extracting entry examples/snapshots-list.js
+silly extracting entry examples/start-app.js
+silly extracting entry examples/create-api-key.js
+silly extracting entry examples/stop-app.js
+silly extracting entry examples/get-logs-by-user.js
+silly extracting entry lib/client.js
+silly extracting entry lib/client/apps.js
+silly extracting entry lib/client/client.js
+silly extracting entry lib/client/databases.js
+silly extracting entry lib/client/helpers.js
+silly extracting entry lib/client/keys.js
+silly extracting entry lib/client/logs.js
+verbose caching /Users/balmerr/.npm/fstream/0.1.18/package/package.json
+verbose loadDefaults fstream@0.1.18
+silly extracting entry lib/client/snapshots.js
+silly extracting entry lib/client/users.js
+silly updated sha bytes 19618
+info shasum 09c2aed0dbac7cb8360e956bdfaa57d605a85e3c
+info shasum /Users/balmerr/.npm/fstream/0.1.18/package.tgz
+verbose from cache /Users/balmerr/.npm/fstream/0.1.18/package/package.json
+verbose chmod /Users/balmerr/.npm/fstream/0.1.18/package.tgz 644
+verbose chown [ '/Users/balmerr/.npm/fstream/0.1.18/package.tgz',
+verbose chown   1857463367,
+verbose chown   1047304036 ]
+silly extracting entry ReadMe.md
+silly extracting entry test/helpers.js
+silly extracting entry test/macros.js
+silly extracting entry test/commands/apps-test.js
+silly extracting entry test/commands/databases-test.js
+silly extracting entry test/commands/logs-test.js
+silly extracting entry test/commands/snapshots-test.js
+silly extracting entry test/commands/users-test.js
+silly extracting entry test/fixtures/snapshot.tgz
+verbose caching /tmp/npm-1345875705496/1345875709668-0.5253084204159677/package/package.json
+verbose loadDefaults pkginfo@0.2.3
+verbose from cache /tmp/npm-1345875705496/1345875709668-0.5253084204159677/package/package.json
+verbose tar.pack [ '/Users/balmerr/.npm/pkginfo/0.2.3/package.tgz',
+verbose tar.pack   '/tmp/npm-1345875705496/1345875709668-0.5253084204159677/package' ]
+verbose tarball /Users/balmerr/.npm/pkginfo/0.2.3/package.tgz
+verbose folder /tmp/npm-1345875705496/1345875709668-0.5253084204159677/package
+http 200 https://registry.npmjs.org/complete/-/complete-0.3.1.tgz
+verbose caching /Users/balmerr/.npm/nodejitsu-api/0.3.2/package/package.json
+verbose loadDefaults nodejitsu-api@0.3.2
+silly updated sha bytes 10945
+info shasum b2e5d809e54396a0f3bdcc5c2cf7a103992e6c7d
+info shasum /Users/balmerr/.npm/nodejitsu-api/0.3.2/package.tgz
+verbose from cache /Users/balmerr/.npm/nodejitsu-api/0.3.2/package/package.json
+verbose chmod /Users/balmerr/.npm/nodejitsu-api/0.3.2/package.tgz 644
+verbose chown [ '/Users/balmerr/.npm/nodejitsu-api/0.3.2/package.tgz',
+verbose chown   1857463367,
+verbose chown   1047304036 ]
+verbose caching /tmp/npm-1345875705496/1345875709985-0.10126862325705588/package/package.json
+verbose loadDefaults require-analyzer@0.4.0-3
+verbose from cache /tmp/npm-1345875705496/1345875709985-0.10126862325705588/package/package.json
+verbose tar.pack [ '/Users/balmerr/.npm/require-analyzer/0.4.0-3/package.tgz',
+verbose tar.pack   '/tmp/npm-1345875705496/1345875709985-0.10126862325705588/package' ]
+verbose tarball /Users/balmerr/.npm/require-analyzer/0.4.0-3/package.tgz
+verbose folder /tmp/npm-1345875705496/1345875709985-0.10126862325705588/package
+silly updated sha bytes 40960
+silly updated sha bytes 3426
+info shasum 5e467fcfb4b911ca8881e36eb5c1eb4ab06d9ae5
+info shasum /tmp/npm-1345875705496/1345875710042-0.8392078883480281/tmp.tgz
+verbose unpack /tmp/npm-1345875705496/1345875710042-0.8392078883480281/tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack /Users/balmerr/.npm/pkginfo/0.2.3/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry .npmignore
+silly extracting entry .travis.yml
+silly extracting entry examples/
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry examples/extracter.js
+silly extracting entry examples/reader.js
+silly extracting entry docs/docco.css
+silly extracting entry docs/pkginfo.html
+silly extracting entry lib/
+silly extracting entry lib/buffer-entry.js
+silly extracting entry lib/entry-writer.js
+silly extracting entry lib/entry.js
+silly extracting entry examples/package.json
+silly extracting entry examples/all-properties.js
+silly extracting entry examples/array-argument.js
+silly extracting entry examples/multiple-properties.js
+silly extracting entry examples/object-argument.js
+silly extracting entry lib/extended-header-writer.js
+silly extracting entry lib/extended-header.js
+silly extracting entry examples/single-property.js
+silly extracting entry lib/pkginfo.js
+silly extracting entry test/pkginfo-test.js
+silly extracting entry lib/extract.js
+silly extracting entry lib/global-header-writer.js
+silly extracting entry lib/header.js
+silly extracting entry lib/pack.js
+silly extracting entry lib/parse.js
+silly extracting entry package.json
+silly extracting entry README.md
+silly extracting entry tar.js
+silly extracting entry test/
+silly extracting entry test/00-setup-fixtures.js
+silly extracting entry test/extract.js
+silly extracting entry test/fixtures.tgz
+silly extracting entry test/header.js
+silly extracting entry test/pack-no-proprietary.js
+silly extracting entry test/pack.js
+silly extracting entry test/parse.js
+silly extracting entry test/zz-cleanup.js
+silly updated sha bytes 4816
+info shasum 9950ac77d1ac4991a9dcc782b33dfae253bf8bda
+info shasum /tmp/npm-1345875705496/1345875710330-0.6140678010415286/tmp.tgz
+verbose unpack /tmp/npm-1345875705496/1345875710330-0.6140678010415286/tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+verbose caching /Users/balmerr/.npm/pkginfo/0.2.3/package/package.json
+verbose loadDefaults pkginfo@0.2.3
+silly updated sha bytes 8297
+silly extracting entry .npmignore
+silly extracting entry README.md
+info shasum 21308472a49ac5520b89cde934aace20eeb328a1
+info shasum /Users/balmerr/.npm/pkginfo/0.2.3/package.tgz
+verbose from cache /Users/balmerr/.npm/pkginfo/0.2.3/package/package.json
+verbose chmod /Users/balmerr/.npm/pkginfo/0.2.3/package.tgz 644
+verbose chown [ '/Users/balmerr/.npm/pkginfo/0.2.3/package.tgz',
+verbose chown   1857463367,
+verbose chown   1047304036 ]
+silly extracting entry example/package.json
+silly extracting entry example/bin/exampleapp
+silly extracting entry example/bin/examplecomp
+silly extracting entry lib/complete.js
+verbose caching /tmp/npm-1345875705496/1345875710330-0.6140678010415286/package/package.json
+verbose loadDefaults complete@0.3.1
+verbose from cache /tmp/npm-1345875705496/1345875710330-0.6140678010415286/package/package.json
+verbose tar.pack [ '/Users/balmerr/.npm/complete/0.3.1/package.tgz',
+verbose tar.pack   '/tmp/npm-1345875705496/1345875710330-0.6140678010415286/package' ]
+verbose tarball /Users/balmerr/.npm/complete/0.3.1/package.tgz
+verbose folder /tmp/npm-1345875705496/1345875710330-0.6140678010415286/package
+verbose unpack /Users/balmerr/.npm/complete/0.3.1/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry example/package.json
+silly extracting entry example/bin/exampleapp
+silly extracting entry example/bin/examplecomp
+silly extracting entry lib/complete.js
+verbose caching /Users/balmerr/.npm/complete/0.3.1/package/package.json
+verbose loadDefaults complete@0.3.1
+silly updated sha bytes 5786
+info shasum 7bc5ebc900f4a7f9678371191d04de1ef3f032f4
+info shasum /Users/balmerr/.npm/complete/0.3.1/package.tgz
+verbose from cache /Users/balmerr/.npm/complete/0.3.1/package/package.json
+verbose chmod /Users/balmerr/.npm/complete/0.3.1/package.tgz 644
+verbose chown [ '/Users/balmerr/.npm/complete/0.3.1/package.tgz',
+verbose chown   1857463367,
+verbose chown   1047304036 ]
+verbose caching /tmp/npm-1345875705496/1345875710042-0.8392078883480281/package/package.json
+verbose loadDefaults tar@0.1.13
+verbose from cache /tmp/npm-1345875705496/1345875710042-0.8392078883480281/package/package.json
+verbose tar.pack [ '/Users/balmerr/.npm/tar/0.1.13/package.tgz',
+verbose tar.pack   '/tmp/npm-1345875705496/1345875710042-0.8392078883480281/package' ]
+verbose tarball /Users/balmerr/.npm/tar/0.1.13/package.tgz
+verbose folder /tmp/npm-1345875705496/1345875710042-0.8392078883480281/package
+http 200 https://registry.npmjs.org/request/2.9.100
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"7XX4QYFG45RZWR9U99QELPX1X"',
+silly get cb     date: 'Sat, 25 Aug 2012 06:21:51 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '10302' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-darwin-x64-11.4.0',
+verbose bin dist   { shasum: 'c9900a6cc8576b8400a82161a6268962f3d09b78',
+verbose bin dist     tarball: 'http://registry.npmjs.org/request/-/request-2.9.100.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.9.100.tgz',
+verbose addRemoteTarball   'c9900a6cc8576b8400a82161a6268962f3d09b78' ]
+verbose fetch to /tmp/npm-1345875705496/1345875711420-0.049982558470219374/tmp.tgz
+http GET https://registry.npmjs.org/request/-/request-2.9.100.tgz
+verbose unpack /Users/balmerr/.npm/require-analyzer/0.4.0-3/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry bin/find-dependencies
+silly extracting entry bin/require-analyzer
+silly extracting entry docs/docco.css
+silly extracting entry docs/require-analyzer.html
+silly extracting entry lib/require-analyzer.js
+silly extracting entry test/example-apps-test.js
+silly extracting entry test/require-analyzer-cli-test.js
+silly extracting entry test/require-analyzer-test.js
+silly extracting entry test/fixtures/.npmignore
+silly extracting entry test/fixtures/wildcards/package.json
+silly extracting entry test/fixtures/wildcards/index.js
+silly extracting entry test/fixtures/dynamic-deps/package.json
+silly extracting entry test/fixtures/dynamic-deps/index.js
+silly extracting entry test/fixtures/example-app1/package.json
+silly extracting entry test/fixtures/example-app1/index.js
+silly extracting entry test/fixtures/example-app2/package.json
+silly extracting entry test/fixtures/example-app2/index.js
+silly extracting entry test/fixtures/example-app3/package.json
+silly extracting entry test/fixtures/example-app3/index.js
+silly extracting entry test/fixtures/conflicting-app/package.json
+silly extracting entry test/fixtures/conflicting-app/index.js
+silly extracting entry test/fixtures/require-only/index.js
+silly extracting entry test/fixtures/socket-io-app/index.js
+silly extracting entry test/fixtures/subdeps/package.json
+silly extracting entry test/fixtures/subdeps/app.js
+silly extracting entry test/fixtures/subdeps/otherstuff.js
+silly extracting entry test/fixtures/version-ranges/package.json
+silly extracting entry test/fixtures/version-ranges/app.js
+silly extracting entry test/fixtures/version-ranges/otherstuff.js
+silly extracting entry test/fixtures/explicit-versions/package.json
+silly extracting entry test/fixtures/explicit-versions/app.js
+http 200 https://registry.npmjs.org/wizard/-/wizard-0.0.1.tgz
+verbose unpack /Users/balmerr/.npm/tar/0.1.13/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry .npmignore
+silly extracting entry README.md
+silly extracting entry tar.js
+silly extracting entry .travis.yml
+silly extracting entry examples/extracter.js
+silly extracting entry examples/reader.js
+silly extracting entry lib/buffer-entry.js
+silly extracting entry lib/entry-writer.js
+silly extracting entry lib/entry.js
+silly extracting entry lib/extended-header-writer.js
+silly extracting entry lib/extended-header.js
+silly extracting entry lib/extract.js
+silly extracting entry lib/global-header-writer.js
+silly extracting entry lib/header.js
+silly extracting entry lib/pack.js
+silly extracting entry lib/parse.js
+silly extracting entry test/00-setup-fixtures.js
+silly extracting entry test/extract.js
+silly extracting entry test/header.js
+silly extracting entry test/pack-no-proprietary.js
+silly extracting entry test/pack.js
+silly extracting entry test/parse.js
+silly extracting entry test/zz-cleanup.js
+silly extracting entry test/fixtures.tgz
+silly updated sha bytes 1894
+info shasum c5c1e6f72d263c998f015f8dbe12d09ecfd19db8
+info shasum /tmp/npm-1345875705496/1345875710099-0.8233821429312229/tmp.tgz
+verbose unpack /tmp/npm-1345875705496/1345875710099-0.8233821429312229/tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry README.md
+silly extracting entry config.json
+silly extracting entry examples/config.json
+silly extracting entry examples/helloworld/cli-installer.js
+verbose caching /Users/balmerr/.npm/require-analyzer/0.4.0-3/package/package.json
+verbose loadDefaults require-analyzer@0.4.0-3
+silly updated sha bytes 25472
+info shasum 957ca06a7b3fa29bba230e3d93c01adf90bfc98b
+info shasum /Users/balmerr/.npm/require-analyzer/0.4.0-3/package.tgz
+verbose from cache /Users/balmerr/.npm/require-analyzer/0.4.0-3/package/package.json
+verbose chmod /Users/balmerr/.npm/require-analyzer/0.4.0-3/package.tgz 644
+verbose chown [ '/Users/balmerr/.npm/require-analyzer/0.4.0-3/package.tgz',
+verbose chown   1857463367,
+verbose chown   1047304036 ]
+silly extracting entry examples/helloworld/server.js
+silly extracting entry examples/helloworld/config/development.json
+silly extracting entry examples/helloworld/config/production.json
+silly extracting entry examples/helloworld/config/schema.json
+silly extracting entry examples/helloworld/config.json
+silly extracting entry lib/wizard.js
+silly extracting entry lib/wizard/cli.js
+silly extracting entry lib/wizard/web.js
+verbose caching /tmp/npm-1345875705496/1345875710099-0.8233821429312229/package/package.json
+verbose loadDefaults wizard@0.0.1
+verbose from cache /tmp/npm-1345875705496/1345875710099-0.8233821429312229/package/package.json
+verbose tar.pack [ '/Users/balmerr/.npm/wizard/0.0.1/package.tgz',
+verbose tar.pack   '/tmp/npm-1345875705496/1345875710099-0.8233821429312229/package' ]
+verbose tarball /Users/balmerr/.npm/wizard/0.0.1/package.tgz
+verbose folder /tmp/npm-1345875705496/1345875710099-0.8233821429312229/package
+verbose unpack /Users/balmerr/.npm/wizard/0.0.1/package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly extracting entry README.md
+silly extracting entry config.json
+silly extracting entry examples/config.json
+silly extracting entry examples/helloworld/cli-installer.js
+silly extracting entry examples/helloworld/server.js
+silly extracting entry examples/helloworld/config/development.json
+silly extracting entry examples/helloworld/config/production.json
+silly extracting entry examples/helloworld/config/schema.json
+silly extracting entry examples/helloworld/config.json
+silly extracting entry lib/wizard.js
+verbose caching /Users/balmerr/.npm/tar/0.1.13/package/package.json
+verbose loadDefaults tar@0.1.13
+silly updated sha bytes 40960
+silly updated sha bytes 3927
+info shasum 1b34d9fe5017c83f6bc24d29b2d54cf7359e5618
+info shasum /Users/balmerr/.npm/tar/0.1.13/package.tgz
+verbose from cache /Users/balmerr/.npm/tar/0.1.13/package/package.json
+verbose chmod /Users/balmerr/.npm/tar/0.1.13/package.tgz 644
+verbose chown [ '/Users/balmerr/.npm/tar/0.1.13/package.tgz',
+verbose chown   1857463367,
+verbose chown   1047304036 ]
+silly extracting entry lib/wizard/cli.js
+silly extracting entry lib/wizard/web.js
+verbose caching /Users/balmerr/.npm/wizard/0.0.1/package/package.json
+verbose loadDefaults wizard@0.0.1
+silly updated sha bytes 2855
+info shasum 233d2293393dd60c4cf827e2f6bc4835b3abe731
+info shasum /Users/balmerr/.npm/wizard/0.0.1/package.tgz
+verbose from cache /Users/balmerr/.npm/wizard/0.0.1/package/package.json
+verbose chmod /Users/balmerr/.npm/wizard/0.0.1/package.tgz 644
+verbose chown [ '/Users/balmerr/.npm/wizard/0.0.1/package.tgz',
+verbose chown   1857463367,
+verbose chown   1047304036 ]
+http 200 https://registry.npmjs.org/request/-/request-2.9.100.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 24199
+info shasum c6125f1c304c003a24c71e56d82d0ae76dc24ced
+info shasum /tmp/npm-1345875705496/1345875709726-0.9803920520935208/tmp.tgz
+verbose unpack /tmp/npm-1345875705496/1345875709726-0.9803920520935208/tmp.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry .npmignore
+silly modified mode [ '.npmignore', 438, 420 ]
+silly extracting entry README.md
+silly modified mode [ 'README.md', 438, 420 ]
+silly extracting entry LICENSE
+silly modified mode [ 'LICENSE', 438, 420 ]
+silly extracting entry cli.js
+silly modified mode [ 'cli.js', 511, 493 ]
+silly extracting entry man/man1/ls.1
+silly modified mode [ 'man/man1/ls.1', 438, 420 ]
+silly extracting entry man/man1/adduser.1
+silly modified mode [ 'man/man1/adduser.1', 438, 420 ]
+silly extracting entry man/man1/bin.1
+silly modified mode [ 'man/man1/bin.1', 438, 420 ]
+silly extracting entry man/man1/bugs.1
+silly modified mode [ 'man/man1/bugs.1', 438, 420 ]
+silly extracting entry man/man1/build.1
+silly modified mode [ 'man/man1/build.1', 438, 420 ]
+silly extracting entry man/man1/bundle.1
+silly modified mode [ 'man/man1/bundle.1', 438, 420 ]
+silly extracting entry man/man1/cache.1
+silly modified mode [ 'man/man1/cache.1', 438, 420 ]
+silly extracting entry man/man1/changelog.1
+silly modified mode [ 'man/man1/changelog.1', 438, 420 ]
+silly extracting entry man/man1/coding-style.1
+silly modified mode [ 'man/man1/coding-style.1', 438, 420 ]
+silly extracting entry man/man1/completion.1
+silly modified mode [ 'man/man1/completion.1', 438, 420 ]
+silly extracting entry man/man1/config.1
+silly modified mode [ 'man/man1/config.1', 438, 420 ]
+silly extracting entry man/man1/dedupe.1
+silly modified mode [ 'man/man1/dedupe.1', 438, 420 ]
+silly extracting entry man/man1/deprecate.1
+silly modified mode [ 'man/man1/deprecate.1', 438, 420 ]
+silly extracting entry man/man1/developers.1
+silly modified mode [ 'man/man1/developers.1', 438, 420 ]
+silly extracting entry man/man1/disputes.1
+silly modified mode [ 'man/man1/disputes.1', 438, 420 ]
+silly extracting entry man/man1/docs.1
+silly modified mode [ 'man/man1/docs.1', 438, 420 ]
+silly extracting entry man/man1/edit.1
+silly modified mode [ 'man/man1/edit.1', 438, 420 ]
+silly extracting entry man/man1/explore.1
+silly modified mode [ 'man/man1/explore.1', 438, 420 ]
+silly extracting entry man/man1/faq.1
+silly modified mode [ 'man/man1/faq.1', 438, 420 ]
+silly extracting entry man/man1/find.1
+silly modified mode [ 'man/man1/find.1', 438, 420 ]
+silly extracting entry man/man1/folders.1
+silly modified mode [ 'man/man1/folders.1', 438, 420 ]
+silly extracting entry man/man1/get.1
+silly modified mode [ 'man/man1/get.1', 438, 420 ]
+silly extracting entry man/man1/global.1
+silly modified mode [ 'man/man1/global.1', 438, 420 ]
+silly extracting entry man/man1/help-search.1
+silly modified mode [ 'man/man1/help-search.1', 438, 420 ]
+silly extracting entry man/man1/help.1
+silly modified mode [ 'man/man1/help.1', 438, 420 ]
+silly extracting entry man/man1/home.1
+silly modified mode [ 'man/man1/home.1', 438, 420 ]
+silly extracting entry man/man1/index.1
+silly modified mode [ 'man/man1/index.1', 438, 420 ]
+silly extracting entry man/man1/init.1
+silly modified mode [ 'man/man1/init.1', 438, 420 ]
+silly extracting entry man/man1/install.1
+silly modified mode [ 'man/man1/install.1', 438, 420 ]
+silly extracting entry man/man1/json.1
+silly modified mode [ 'man/man1/json.1', 438, 420 ]
+silly extracting entry man/man1/link.1
+silly modified mode [ 'man/man1/link.1', 438, 420 ]
+silly extracting entry man/man1/list.1
+silly modified mode [ 'man/man1/list.1', 438, 420 ]
+silly extracting entry man/man1/ln.1
+silly modified mode [ 'man/man1/ln.1', 438, 420 ]
+silly extracting entry man/man1/author.1
+silly modified mode [ 'man/man1/author.1', 438, 420 ]
+silly extracting entry man/man1/npm.1
+silly modified mode [ 'man/man1/npm.1', 438, 420 ]
+silly extracting entry man/man1/outdated.1
+silly modified mode [ 'man/man1/outdated.1', 438, 420 ]
+silly extracting entry man/man1/owner.1
+silly modified mode [ 'man/man1/owner.1', 438, 420 ]
+silly extracting entry man/man1/pack.1
+silly modified mode [ 'man/man1/pack.1', 438, 420 ]
+silly extracting entry man/man1/prefix.1
+silly modified mode [ 'man/man1/prefix.1', 438, 420 ]
+silly extracting entry man/man1/prune.1
+silly modified mode [ 'man/man1/prune.1', 438, 420 ]
+silly extracting entry man/man1/publish.1
+silly modified mode [ 'man/man1/publish.1', 438, 420 ]
+silly extracting entry man/man1/README.1
+silly modified mode [ 'man/man1/README.1', 438, 420 ]
+silly extracting entry man/man1/rebuild.1
+silly modified mode [ 'man/man1/rebuild.1', 438, 420 ]
+silly extracting entry man/man1/registry.1
+silly modified mode [ 'man/man1/registry.1', 438, 420 ]
+silly extracting entry man/man1/removing-npm.1
+silly modified mode [ 'man/man1/removing-npm.1', 438, 420 ]
+silly extracting entry man/man1/restart.1
+silly modified mode [ 'man/man1/restart.1', 438, 420 ]
+silly extracting entry man/man1/rm.1
+silly modified mode [ 'man/man1/rm.1', 438, 420 ]
+silly extracting entry man/man1/root.1
+silly modified mode [ 'man/man1/root.1', 438, 420 ]
+silly extracting entry man/man1/run-script.1
+silly modified mode [ 'man/man1/run-script.1', 438, 420 ]
+silly extracting entry man/man1/scripts.1
+silly modified mode [ 'man/man1/scripts.1', 438, 420 ]
+silly extracting entry man/man1/search.1
+silly modified mode [ 'man/man1/search.1', 438, 420 ]
+silly extracting entry man/man1/semver.1
+silly modified mode [ 'man/man1/semver.1', 438, 420 ]
+silly extracting entry man/man1/set.1
+silly modified mode [ 'man/man1/set.1', 438, 420 ]
+silly extracting entry man/man1/shrinkwrap.1
+silly modified mode [ 'man/man1/shrinkwrap.1', 438, 420 ]
+silly extracting entry man/man1/star.1
+silly modified mode [ 'man/man1/star.1', 438, 420 ]
+silly extracting entry man/man1/start.1
+silly modified mode [ 'man/man1/start.1', 438, 420 ]
+silly extracting entry man/man1/stop.1
+silly modified mode [ 'man/man1/stop.1', 438, 420 ]
+silly extracting entry man/man1/submodule.1
+silly modified mode [ 'man/man1/submodule.1', 438, 420 ]
+silly extracting entry man/man1/tag.1
+silly modified mode [ 'man/man1/tag.1', 438, 420 ]
+silly extracting entry man/man1/test.1
+silly modified mode [ 'man/man1/test.1', 438, 420 ]
+silly extracting entry man/man1/uninstall.1
+silly modified mode [ 'man/man1/uninstall.1', 438, 420 ]
+silly extracting entry man/man1/unpublish.1
+silly modified mode [ 'man/man1/unpublish.1', 438, 420 ]
+silly extracting entry man/man1/update.1
+silly modified mode [ 'man/man1/update.1', 438, 420 ]
+silly extracting entry man/man1/version.1
+silly modified mode [ 'man/man1/version.1', 438, 420 ]
+silly extracting entry man/man1/view.1
+silly modified mode [ 'man/man1/view.1', 438, 420 ]
+silly extracting entry man/man1/whoami.1
+silly modified mode [ 'man/man1/whoami.1', 438, 420 ]
+silly extracting entry man/man3/pack.3
+silly modified mode [ 'man/man3/pack.3', 438, 420 ]
+silly extracting entry man/man3/author.3
+silly modified mode [ 'man/man3/author.3', 438, 420 ]
+silly extracting entry man/man3/bugs.3
+silly modified mode [ 'man/man3/bugs.3', 438, 420 ]
+silly extracting entry man/man3/commands.3
+silly modified mode [ 'man/man3/commands.3', 438, 420 ]
+silly extracting entry man/man3/config.3
+silly modified mode [ 'man/man3/config.3', 438, 420 ]
+silly extracting entry man/man3/deprecate.3
+silly modified mode [ 'man/man3/deprecate.3', 438, 420 ]
+silly extracting entry man/man3/docs.3
+silly modified mode [ 'man/man3/docs.3', 438, 420 ]
+silly extracting entry man/man3/edit.3
+silly modified mode [ 'man/man3/edit.3', 438, 420 ]
+silly extracting entry man/man3/explore.3
+silly modified mode [ 'man/man3/explore.3', 438, 420 ]
+silly extracting entry man/man3/find.3
+silly modified mode [ 'man/man3/find.3', 438, 420 ]
+silly extracting entry man/man3/get.3
+silly modified mode [ 'man/man3/get.3', 438, 420 ]
+silly extracting entry man/man3/help-search.3
+silly modified mode [ 'man/man3/help-search.3', 438, 420 ]
+silly extracting entry man/man3/home.3
+silly modified mode [ 'man/man3/home.3', 438, 420 ]
+silly extracting entry man/man3/init.3
+silly modified mode [ 'man/man3/init.3', 438, 420 ]
+silly extracting entry man/man3/install.3
+silly modified mode [ 'man/man3/install.3', 438, 420 ]
+silly extracting entry man/man3/link.3
+silly modified mode [ 'man/man3/link.3', 438, 420 ]
+silly extracting entry man/man3/list.3
+silly modified mode [ 'man/man3/list.3', 438, 420 ]
+silly extracting entry man/man3/ln.3
+silly modified mode [ 'man/man3/ln.3', 438, 420 ]
+silly extracting entry man/man3/load.3
+silly modified mode [ 'man/man3/load.3', 438, 420 ]
+silly extracting entry man/man3/ls.3
+silly modified mode [ 'man/man3/ls.3', 438, 420 ]
+silly extracting entry man/man3/npm.3
+silly modified mode [ 'man/man3/npm.3', 438, 420 ]
+silly extracting entry man/man3/outdated.3
+silly modified mode [ 'man/man3/outdated.3', 438, 420 ]
+silly extracting entry man/man3/owner.3
+silly modified mode [ 'man/man3/owner.3', 438, 420 ]
+silly extracting entry man/man3/bin.3
+silly modified mode [ 'man/man3/bin.3', 438, 420 ]
+silly extracting entry man/man3/prefix.3
+silly modified mode [ 'man/man3/prefix.3', 438, 420 ]
+silly extracting entry man/man3/prune.3
+silly modified mode [ 'man/man3/prune.3', 438, 420 ]
+silly extracting entry man/man3/publish.3
+silly modified mode [ 'man/man3/publish.3', 438, 420 ]
+silly extracting entry man/man3/rebuild.3
+silly modified mode [ 'man/man3/rebuild.3', 438, 420 ]
+silly extracting entry man/man3/restart.3
+silly modified mode [ 'man/man3/restart.3', 438, 420 ]
+silly extracting entry man/man3/rm.3
+silly modified mode [ 'man/man3/rm.3', 438, 420 ]
+silly extracting entry man/man3/root.3
+silly modified mode [ 'man/man3/root.3', 438, 420 ]
+silly extracting entry man/man3/run-script.3
+silly modified mode [ 'man/man3/run-script.3', 438, 420 ]
+silly extracting entry man/man3/search.3
+silly modified mode [ 'man/man3/search.3', 438, 420 ]
+silly extracting entry man/man3/set.3
+silly modified mode [ 'man/man3/set.3', 438, 420 ]
+silly extracting entry man/man3/shrinkwrap.3
+silly modified mode [ 'man/man3/shrinkwrap.3', 438, 420 ]
+silly extracting entry man/man3/start.3
+silly modified mode [ 'man/man3/start.3', 438, 420 ]
+silly extracting entry man/man3/stop.3
+silly modified mode [ 'man/man3/stop.3', 438, 420 ]
+silly extracting entry man/man3/submodule.3
+silly modified mode [ 'man/man3/submodule.3', 438, 420 ]
+silly extracting entry man/man3/tag.3
+silly modified mode [ 'man/man3/tag.3', 438, 420 ]
+silly extracting entry man/man3/test.3
+silly modified mode [ 'man/man3/test.3', 438, 420 ]
+silly extracting entry man/man3/uninstall.3
+silly modified mode [ 'man/man3/uninstall.3', 438, 420 ]
+silly extracting entry man/man3/unpublish.3
+silly modified mode [ 'man/man3/unpublish.3', 438, 420 ]
+silly extracting entry man/man3/update.3
+silly modified mode [ 'man/man3/update.3', 438, 420 ]
+silly extracting entry man/man3/version.3
+silly modified mode [ 'man/man3/version.3', 438, 420 ]
+silly extracting entry man/man3/view.3
+silly modified mode [ 'man/man3/view.3', 438, 420 ]
+silly extracting entry man/man3/whoami.3
+silly modified mode [ 'man/man3/whoami.3', 438, 420 ]
+silly extracting entry html/api/prune.html
+silly modified mode [ 'html/api/prune.html', 438, 420 ]
+silly extracting entry html/api/bin.html
+silly modified mode [ 'html/api/bin.html', 438, 420 ]
+silly extracting entry html/api/commands.html
+silly modified mode [ 'html/api/commands.html', 438, 420 ]
+silly extracting entry html/api/config.html
+silly modified mode [ 'html/api/config.html', 438, 420 ]
+silly extracting entry html/api/deprecate.html
+silly modified mode [ 'html/api/deprecate.html', 438, 420 ]
+silly extracting entry html/api/docs.html
+silly modified mode [ 'html/api/docs.html', 438, 420 ]
+silly extracting entry html/api/edit.html
+silly modified mode [ 'html/api/edit.html', 438, 420 ]
+silly extracting entry html/api/explore.html
+silly modified mode [ 'html/api/explore.html', 438, 420 ]
+silly extracting entry html/api/help-search.html
+silly modified mode [ 'html/api/help-search.html', 438, 420 ]
+silly extracting entry html/api/init.html
+silly modified mode [ 'html/api/init.html', 438, 420 ]
+silly extracting entry html/api/install.html
+silly modified mode [ 'html/api/install.html', 438, 420 ]
+silly extracting entry html/api/link.html
+silly modified mode [ 'html/api/link.html', 438, 420 ]
+silly extracting entry html/api/load.html
+silly modified mode [ 'html/api/load.html', 438, 420 ]
+silly extracting entry html/api/ls.html
+silly modified mode [ 'html/api/ls.html', 438, 420 ]
+silly extracting entry html/api/npm.html
+silly modified mode [ 'html/api/npm.html', 438, 420 ]
+silly extracting entry html/api/outdated.html
+silly modified mode [ 'html/api/outdated.html', 438, 420 ]
+silly extracting entry html/api/owner.html
+silly modified mode [ 'html/api/owner.html', 438, 420 ]
+silly extracting entry html/api/pack.html
+silly modified mode [ 'html/api/pack.html', 438, 420 ]
+silly extracting entry html/api/prefix.html
+silly modified mode [ 'html/api/prefix.html', 438, 420 ]
+silly extracting entry html/api/bugs.html
+silly modified mode [ 'html/api/bugs.html', 438, 420 ]
+silly extracting entry html/api/publish.html
+silly modified mode [ 'html/api/publish.html', 438, 420 ]
+silly extracting entry html/api/rebuild.html
+silly modified mode [ 'html/api/rebuild.html', 438, 420 ]
+silly extracting entry html/api/restart.html
+silly modified mode [ 'html/api/restart.html', 438, 420 ]
+silly extracting entry html/api/root.html
+silly modified mode [ 'html/api/root.html', 438, 420 ]
+silly extracting entry html/api/run-script.html
+silly modified mode [ 'html/api/run-script.html', 438, 420 ]
+silly extracting entry html/api/search.html
+silly modified mode [ 'html/api/search.html', 438, 420 ]
+silly extracting entry html/api/shrinkwrap.html
+silly modified mode [ 'html/api/shrinkwrap.html', 438, 420 ]
+silly extracting entry html/api/start.html
+silly modified mode [ 'html/api/start.html', 438, 420 ]
+silly extracting entry html/api/stop.html
+silly modified mode [ 'html/api/stop.html', 438, 420 ]
+silly extracting entry html/api/submodule.html
+silly modified mode [ 'html/api/submodule.html', 438, 420 ]
+silly extracting entry html/api/tag.html
+silly modified mode [ 'html/api/tag.html', 438, 420 ]
+silly extracting entry html/api/test.html
+silly modified mode [ 'html/api/test.html', 438, 420 ]
+silly extracting entry html/api/uninstall.html
+silly modified mode [ 'html/api/uninstall.html', 438, 420 ]
+silly extracting entry html/api/unpublish.html
+silly modified mode [ 'html/api/unpublish.html', 438, 420 ]
+silly extracting entry html/api/update.html
+silly modified mode [ 'html/api/update.html', 438, 420 ]
+silly extracting entry html/api/version.html
+silly modified mode [ 'html/api/version.html', 438, 420 ]
+silly extracting entry html/api/view.html
+silly modified mode [ 'html/api/view.html', 438, 420 ]
+silly extracting entry html/api/whoami.html
+silly modified mode [ 'html/api/whoami.html', 438, 420 ]
+silly extracting entry html/doc/outdated.html
+silly modified mode [ 'html/doc/outdated.html', 438, 420 ]
+silly extracting entry html/doc/adduser.html
+silly modified mode [ 'html/doc/adduser.html', 438, 420 ]
+silly extracting entry html/doc/bugs.html
+silly modified mode [ 'html/doc/bugs.html', 438, 420 ]
+silly extracting entry html/doc/build.html
+silly modified mode [ 'html/doc/build.html', 438, 420 ]
+silly extracting entry html/doc/bundle.html
+silly modified mode [ 'html/doc/bundle.html', 438, 420 ]
+silly extracting entry html/doc/cache.html
+silly modified mode [ 'html/doc/cache.html', 438, 420 ]
+silly extracting entry html/doc/changelog.html
+silly modified mode [ 'html/doc/changelog.html', 438, 420 ]
+silly extracting entry html/doc/coding-style.html
+silly modified mode [ 'html/doc/coding-style.html', 438, 420 ]
+silly extracting entry html/doc/completion.html
+silly modified mode [ 'html/doc/completion.html', 438, 420 ]
+silly extracting entry html/doc/config.html
+silly modified mode [ 'html/doc/config.html', 438, 420 ]
+silly extracting entry html/doc/dedupe.html
+silly modified mode [ 'html/doc/dedupe.html', 438, 420 ]
+silly extracting entry html/doc/deprecate.html
+silly modified mode [ 'html/doc/deprecate.html', 438, 420 ]
+silly extracting entry html/doc/developers.html
+silly modified mode [ 'html/doc/developers.html', 438, 420 ]
+silly extracting entry html/doc/disputes.html
+silly modified mode [ 'html/doc/disputes.html', 438, 420 ]
+silly extracting entry html/doc/docs.html
+silly modified mode [ 'html/doc/docs.html', 438, 420 ]
+silly extracting entry html/doc/edit.html
+silly modified mode [ 'html/doc/edit.html', 438, 420 ]
+silly extracting entry html/doc/explore.html
+silly modified mode [ 'html/doc/explore.html', 438, 420 ]
+silly extracting entry html/doc/faq.html
+silly modified mode [ 'html/doc/faq.html', 438, 420 ]
+silly extracting entry html/doc/folders.html
+silly modified mode [ 'html/doc/folders.html', 438, 420 ]
+silly extracting entry html/doc/help-search.html
+silly modified mode [ 'html/doc/help-search.html', 438, 420 ]
+silly extracting entry html/doc/help.html
+silly modified mode [ 'html/doc/help.html', 438, 420 ]
+silly extracting entry html/doc/index.html
+silly modified mode [ 'html/doc/index.html', 438, 420 ]
+silly extracting entry html/doc/init.html
+silly modified mode [ 'html/doc/init.html', 438, 420 ]
+silly extracting entry html/doc/install.html
+silly modified mode [ 'html/doc/install.html', 438, 420 ]
+silly extracting entry html/doc/json.html
+silly modified mode [ 'html/doc/json.html', 438, 420 ]
+silly extracting entry html/doc/link.html
+silly modified mode [ 'html/doc/link.html', 438, 420 ]
+silly extracting entry html/doc/list.html
+silly modified mode [ 'html/doc/list.html', 438, 420 ]
+silly extracting entry html/doc/npm.html
+silly modified mode [ 'html/doc/npm.html', 438, 420 ]
+silly extracting entry html/doc/bin.html
+silly modified mode [ 'html/doc/bin.html', 438, 420 ]
+silly extracting entry html/doc/owner.html
+silly modified mode [ 'html/doc/owner.html', 438, 420 ]
+silly extracting entry html/doc/pack.html
+silly modified mode [ 'html/doc/pack.html', 438, 420 ]
+silly extracting entry html/doc/prefix.html
+silly modified mode [ 'html/doc/prefix.html', 438, 420 ]
+silly extracting entry html/doc/prune.html
+silly modified mode [ 'html/doc/prune.html', 438, 420 ]
+silly extracting entry html/doc/publish.html
+silly modified mode [ 'html/doc/publish.html', 438, 420 ]
+silly extracting entry html/doc/README.html
+silly modified mode [ 'html/doc/README.html', 438, 420 ]
+silly extracting entry html/doc/rebuild.html
+silly modified mode [ 'html/doc/rebuild.html', 438, 420 ]
+silly extracting entry html/doc/registry.html
+silly modified mode [ 'html/doc/registry.html', 438, 420 ]
+silly extracting entry html/doc/removing-npm.html
+silly modified mode [ 'html/doc/removing-npm.html', 438, 420 ]
+silly extracting entry html/doc/restart.html
+silly modified mode [ 'html/doc/restart.html', 438, 420 ]
+silly extracting entry html/doc/root.html
+silly modified mode [ 'html/doc/root.html', 438, 420 ]
+silly extracting entry html/doc/run-script.html
+silly modified mode [ 'html/doc/run-script.html', 438, 420 ]
+silly extracting entry html/doc/scripts.html
+silly modified mode [ 'html/doc/scripts.html', 438, 420 ]
+silly extracting entry html/doc/search.html
+silly modified mode [ 'html/doc/search.html', 438, 420 ]
+silly extracting entry html/doc/semver.html
+silly modified mode [ 'html/doc/semver.html', 438, 420 ]
+silly extracting entry html/doc/shrinkwrap.html
+silly modified mode [ 'html/doc/shrinkwrap.html', 438, 420 ]
+silly extracting entry html/doc/star.html
+silly modified mode [ 'html/doc/star.html', 438, 420 ]
+silly extracting entry html/doc/start.html
+silly modified mode [ 'html/doc/start.html', 438, 420 ]
+silly extracting entry html/doc/stop.html
+silly modified mode [ 'html/doc/stop.html', 438, 420 ]
+silly extracting entry html/doc/submodule.html
+silly modified mode [ 'html/doc/submodule.html', 438, 420 ]
+silly extracting entry html/doc/tag.html
+silly modified mode [ 'html/doc/tag.html', 438, 420 ]
+silly extracting entry html/doc/test.html
+silly modified mode [ 'html/doc/test.html', 438, 420 ]
+silly extracting entry html/doc/uninstall.html
+silly modified mode [ 'html/doc/uninstall.html', 438, 420 ]
+silly extracting entry html/doc/unpublish.html
+silly modified mode [ 'html/doc/unpublish.html', 438, 420 ]
+silly extracting entry html/doc/update.html
+silly modified mode [ 'html/doc/update.html', 438, 420 ]
+silly extracting entry html/doc/version.html
+silly modified mode [ 'html/doc/version.html', 438, 420 ]
+silly extracting entry html/doc/view.html
+silly modified mode [ 'html/doc/view.html', 438, 420 ]
+silly extracting entry html/doc/whoami.html
+silly modified mode [ 'html/doc/whoami.html', 438, 420 ]
+silly extracting entry html/docfoot.html
+silly modified mode [ 'html/docfoot.html', 438, 420 ]
+silly extracting entry html/dochead.html
+silly modified mode [ 'html/dochead.html', 438, 420 ]
+silly extracting entry html/favicon.ico
+silly modified mode [ 'html/favicon.ico', 438, 420 ]
+silly extracting entry html/index.html
+silly modified mode [ 'html/index.html', 438, 420 ]
+silly extracting entry html/style.css
+silly modified mode [ 'html/style.css', 438, 420 ]
+silly extracting entry html/webfonts/23242D_3_0.eot
+silly modified mode [ 'html/webfonts/23242D_3_0.eot', 438, 420 ]
+silly extracting entry html/webfonts/23242D_3_0.ttf
+silly modified mode [ 'html/webfonts/23242D_3_0.ttf', 438, 420 ]
+silly extracting entry html/webfonts/23242D_3_0.woff
+silly modified mode [ 'html/webfonts/23242D_3_0.woff', 438, 420 ]
+silly extracting entry lib/adduser.js
+silly modified mode [ 'lib/adduser.js', 438, 420 ]
+silly extracting entry lib/outdated.js
+silly modified mode [ 'lib/outdated.js', 438, 420 ]
+silly extracting entry lib/owner.js
+silly modified mode [ 'lib/owner.js', 438, 420 ]
+silly extracting entry lib/pack.js
+silly modified mode [ 'lib/pack.js', 438, 420 ]
+silly extracting entry lib/npm.js
+silly modified mode [ 'lib/npm.js', 438, 420 ]
+silly extracting entry lib/bin.js
+silly modified mode [ 'lib/bin.js', 438, 420 ]
+silly extracting entry lib/publish.js
+silly modified mode [ 'lib/publish.js', 438, 420 ]
+silly extracting entry lib/rebuild.js
+silly modified mode [ 'lib/rebuild.js', 438, 420 ]
+silly extracting entry lib/restart.js
+silly modified mode [ 'lib/restart.js', 438, 420 ]
+silly extracting entry lib/root.js
+silly modified mode [ 'lib/root.js', 438, 420 ]
+silly extracting entry lib/ls.js
+silly modified mode [ 'lib/ls.js', 438, 420 ]
+silly extracting entry lib/run-script.js
+silly modified mode [ 'lib/run-script.js', 438, 420 ]
+silly extracting entry lib/link.js
+silly modified mode [ 'lib/link.js', 438, 420 ]
+silly extracting entry lib/search.js
+silly modified mode [ 'lib/search.js', 438, 420 ]
+silly extracting entry lib/install.js
+silly modified mode [ 'lib/install.js', 438, 420 ]
+silly extracting entry lib/set.js
+silly modified mode [ 'lib/set.js', 438, 420 ]
+silly extracting entry lib/init.js
+silly modified mode [ 'lib/init.js', 438, 420 ]
+silly extracting entry lib/shrinkwrap.js
+silly modified mode [ 'lib/shrinkwrap.js', 438, 420 ]
+silly extracting entry lib/help.js
+silly modified mode [ 'lib/help.js', 438, 420 ]
+silly extracting entry lib/star.js
+silly modified mode [ 'lib/star.js', 438, 420 ]
+silly extracting entry lib/help-search.js
+silly modified mode [ 'lib/help-search.js', 438, 420 ]
+silly extracting entry lib/start.js
+silly modified mode [ 'lib/start.js', 438, 420 ]
+silly extracting entry lib/get.js
+silly modified mode [ 'lib/get.js', 438, 420 ]
+silly extracting entry lib/stop.js
+silly modified mode [ 'lib/stop.js', 438, 420 ]
+silly extracting entry lib/faq.js
+silly modified mode [ 'lib/faq.js', 438, 420 ]
+silly extracting entry lib/submodule.js
+silly modified mode [ 'lib/submodule.js', 438, 420 ]
+silly extracting entry lib/explore.js
+silly modified mode [ 'lib/explore.js', 438, 420 ]
+silly extracting entry lib/substack.js
+silly modified mode [ 'lib/substack.js', 438, 420 ]
+silly extracting entry lib/edit.js
+silly modified mode [ 'lib/edit.js', 438, 420 ]
+silly extracting entry lib/tag.js
+silly modified mode [ 'lib/tag.js', 438, 420 ]
+silly extracting entry lib/docs.js
+silly modified mode [ 'lib/docs.js', 438, 420 ]
+silly extracting entry lib/test.js
+silly modified mode [ 'lib/test.js', 438, 420 ]
+silly extracting entry lib/deprecate.js
+silly modified mode [ 'lib/deprecate.js', 438, 420 ]
+silly extracting entry lib/unbuild.js
+silly modified mode [ 'lib/unbuild.js', 438, 420 ]
+silly extracting entry lib/dedupe.js
+silly modified mode [ 'lib/dedupe.js', 438, 420 ]
+silly extracting entry lib/uninstall.js
+silly modified mode [ 'lib/uninstall.js', 438, 420 ]
+silly extracting entry lib/config.js
+silly modified mode [ 'lib/config.js', 438, 420 ]
+silly extracting entry lib/unpublish.js
+silly modified mode [ 'lib/unpublish.js', 438, 420 ]
+silly extracting entry lib/completion.js
+silly modified mode [ 'lib/completion.js', 438, 420 ]
+silly extracting entry lib/update.js
+silly modified mode [ 'lib/update.js', 438, 420 ]
+silly extracting entry lib/cache.js
+silly modified mode [ 'lib/cache.js', 438, 420 ]
+silly extracting entry lib/whoami.js
+silly modified mode [ 'lib/whoami.js', 438, 420 ]
+silly extracting entry lib/build.js
+silly modified mode [ 'lib/build.js', 438, 420 ]
+silly extracting entry lib/version.js
+silly modified mode [ 'lib/version.js', 438, 420 ]
+silly extracting entry lib/bugs.js
+silly modified mode [ 'lib/bugs.js', 438, 420 ]
+silly extracting entry lib/view.js
+silly modified mode [ 'lib/view.js', 438, 420 ]
+silly extracting entry lib/prefix.js
+silly modified mode [ 'lib/prefix.js', 438, 420 ]
+silly extracting entry lib/xmas.js
+silly modified mode [ 'lib/xmas.js', 438, 420 ]
+silly extracting entry lib/prune.js
+silly modified mode [ 'lib/prune.js', 438, 420 ]
+silly extracting entry lib/utils/cmd-shim.js
+silly modified mode [ 'lib/utils/cmd-shim.js', 438, 420 ]
+silly extracting entry lib/utils/sha.js
+silly modified mode [ 'lib/utils/sha.js', 438, 420 ]
+silly extracting entry lib/utils/error-handler.js
+silly modified mode [ 'lib/utils/error-handler.js', 438, 420 ]
+silly extracting entry lib/utils/exec.js
+silly modified mode [ 'lib/utils/exec.js', 438, 420 ]
+silly extracting entry lib/utils/fetch.js
+silly modified mode [ 'lib/utils/fetch.js', 438, 420 ]
+silly extracting entry lib/utils/link.js
+silly modified mode [ 'lib/utils/link.js', 438, 420 ]
+silly extracting entry lib/utils/gently-rm.js
+silly modified mode [ 'lib/utils/gently-rm.js', 438, 420 ]
+silly extracting entry lib/utils/lifecycle.js
+silly modified mode [ 'lib/utils/lifecycle.js', 438, 420 ]
+silly extracting entry lib/utils/tar.js
+silly modified mode [ 'lib/utils/tar.js', 438, 420 ]
+silly extracting entry lib/utils/find-prefix.js
+silly modified mode [ 'lib/utils/find-prefix.js', 438, 420 ]
+silly extracting entry lib/utils/completion/file-completion.js
+silly modified mode [ 'lib/utils/completion/file-completion.js', 438, 420 ]
+silly extracting entry lib/utils/completion/installed-deep.js
+silly modified mode [ 'lib/utils/completion/installed-deep.js', 438, 420 ]
+silly extracting entry lib/utils/completion/installed-shallow.js
+silly modified mode [ 'lib/utils/completion/installed-shallow.js', 438, 420 ]
+silly extracting entry lib/utils/completion/remote-packages.js
+silly modified mode [ 'lib/utils/completion/remote-packages.js', 438, 420 ]
+silly extracting entry lib/utils/completion/users.js
+silly modified mode [ 'lib/utils/completion/users.js', 438, 420 ]
+silly extracting entry lib/utils/completion.sh
+silly modified mode [ 'lib/utils/completion.sh', 511, 493 ]
+silly extracting entry AUTHORS
+silly modified mode [ 'AUTHORS', 438, 420 ]
+silly extracting entry Makefile
+silly modified mode [ 'Makefile', 438, 420 ]
+silly extracting entry doc/api/prune.md
+silly modified mode [ 'doc/api/prune.md', 438, 420 ]
+silly extracting entry doc/api/bin.md
+silly modified mode [ 'doc/api/bin.md', 438, 420 ]
+silly extracting entry doc/api/commands.md
+silly modified mode [ 'doc/api/commands.md', 438, 420 ]
+silly extracting entry doc/api/config.md
+silly modified mode [ 'doc/api/config.md', 438, 420 ]
+silly extracting entry doc/api/deprecate.md
+silly modified mode [ 'doc/api/deprecate.md', 438, 420 ]
+silly extracting entry doc/api/docs.md
+silly modified mode [ 'doc/api/docs.md', 438, 420 ]
+silly extracting entry doc/api/edit.md
+silly modified mode [ 'doc/api/edit.md', 438, 420 ]
+silly extracting entry doc/api/explore.md
+silly modified mode [ 'doc/api/explore.md', 438, 420 ]
+silly extracting entry doc/api/help-search.md
+silly modified mode [ 'doc/api/help-search.md', 438, 420 ]
+silly extracting entry doc/api/init.md
+silly modified mode [ 'doc/api/init.md', 438, 420 ]
+silly extracting entry doc/api/install.md
+silly modified mode [ 'doc/api/install.md', 438, 420 ]
+silly extracting entry doc/api/link.md
+silly modified mode [ 'doc/api/link.md', 438, 420 ]
+silly extracting entry doc/api/load.md
+silly modified mode [ 'doc/api/load.md', 438, 420 ]
+silly extracting entry doc/api/ls.md
+silly modified mode [ 'doc/api/ls.md', 438, 420 ]
+silly extracting entry doc/api/npm.md
+silly modified mode [ 'doc/api/npm.md', 438, 420 ]
+silly extracting entry doc/api/outdated.md
+silly modified mode [ 'doc/api/outdated.md', 438, 420 ]
+silly extracting entry doc/api/owner.md
+silly modified mode [ 'doc/api/owner.md', 438, 420 ]
+silly extracting entry doc/api/pack.md
+silly modified mode [ 'doc/api/pack.md', 438, 420 ]
+silly extracting entry doc/api/prefix.md
+silly modified mode [ 'doc/api/prefix.md', 438, 420 ]
+silly extracting entry doc/api/bugs.md
+silly modified mode [ 'doc/api/bugs.md', 438, 420 ]
+silly extracting entry doc/api/publish.md
+silly modified mode [ 'doc/api/publish.md', 438, 420 ]
+silly extracting entry doc/api/rebuild.md
+silly modified mode [ 'doc/api/rebuild.md', 438, 420 ]
+silly extracting entry doc/api/restart.md
+silly modified mode [ 'doc/api/restart.md', 438, 420 ]
+silly extracting entry doc/api/root.md
+silly modified mode [ 'doc/api/root.md', 438, 420 ]
+silly extracting entry doc/api/run-script.md
+silly modified mode [ 'doc/api/run-script.md', 438, 420 ]
+silly extracting entry doc/api/search.md
+silly modified mode [ 'doc/api/search.md', 438, 420 ]
+silly extracting entry doc/api/shrinkwrap.md
+silly modified mode [ 'doc/api/shrinkwrap.md', 438, 420 ]
+silly extracting entry doc/api/start.md
+silly modified mode [ 'doc/api/start.md', 438, 420 ]
+silly extracting entry doc/api/stop.md
+silly modified mode [ 'doc/api/stop.md', 438, 420 ]
+silly extracting entry doc/api/submodule.md
+silly modified mode [ 'doc/api/submodule.md', 438, 420 ]
+silly extracting entry doc/api/tag.md
+silly modified mode [ 'doc/api/tag.md', 438, 420 ]
+silly extracting entry doc/api/test.md
+silly modified mode [ 'doc/api/test.md', 438, 420 ]
+silly extracting entry doc/api/uninstall.md

@@ -1,0 +1,15 @@
+{
+  "name": "node-redis-shared-world",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "3.0.x",
+    "socket.io": "0.9.x",
+    "async": "0.1.x",
+    "redis": "0.7.x",
+    "hiredis": "0.1.x"
+  },
+  "engines": {
+    "node": "0.6.x",
+    "npm": "1.1.x"
+  }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<script src="http://10.0.0.3:3001/socket.io/socket.io.js"></script>
+<script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+<style type='text/css'>
+
+div.tile {
+	
+	width: 50px;
+	height: 35px;
+	text-align: center;
+	padding-top: 15px;
+	border: 1px solid black;
+	float:left;
+	position: relative;
+	margin: 4px;
+}
+
+div#tiles{
+	width: 602px;
+	height: 602px;
+}
+
+</style>
+
+<script type='text/javascript'>
+	
+	var iosocket = io.connect('http://10.0.0.3:3001');
+
+	function repopulate(){
+		$.get('/loadmap-version=' + new Date().getTime(),function(data){
+			
+			world = $.parseJSON(data);
+			
+			$('#tiles').empty();
+			
+			$.each(world, function(index, tile){
+				
+				color = 255 - (tile*3);
+				colorString = color + "," + color + "," + color;
+				
+				$newtile = $('<div class="tile"  id="'+index+'">'+tile+'</div>');
+				
+				$newtile.css('background', 'rgb('+colorString+')');
+				
+				$('#tiles').append($newtile);
+				
+				
+			})
+			
+			$('.tile').click(function(){
+				
+				iosocket.emit('change',$(this).attr('id'));
+				
+				//simulate immediate response
+				var newcol = 254 - (3*(Number($(this).text())));
+				var newnum = Number($(this).text())+1;
+				
+				console.log(newnum);
+				$(this).text(newnum);
+				
+				colorString = newcol + "," + newcol + "," + newcol;
+				
+				$(this).css('background','rgb('+colorString+')');
+			
+			})
+			
+		});
+
+
+	}
+	
+	$(function(){
+		
+		repopulate();
+	
+		 iosocket.on('refresh', function (data) {
+		 	console.log('data');
+		 	console.log('agasin!');
+			 repopulate();
+		 });
+		
+	});
+
+</script>
+
+</head>
+<body>
+
+<div id='tiles'>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+
+
+Server: keeps track of the world
+World: a tile-based world - 
+
+
+REDIS for map storage. Depending on the SIZE of the map, you pick up different LRANGEs of the list in a redis store.
